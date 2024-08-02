@@ -50,3 +50,21 @@
 3. Especifique os requisitos do usuário
 4. Produza soluções de design para atender aos requisitos do usuário
 5. Avalie os designs em relação aos requisitos
+6. A solução projetada atende aos requisitos do usuário
+
+## O roteiro do curso
+
+1. Analisar a oportunidade
+     1. Identificar os stakeholders
+     2. Criar a visão de UX
+     3. Segmentar o mercado
+2. Construir o contexto de uso
+     1. Construir perfis de usuário
+     2. Construir perfis de ambiente
+     3. Identificar rotas vermelhas
+3. Criar a experiência do usuário
+     1. Definir indicadores-chave de desempenho
+     2. Desenvolver a arquitetura de informações
+     3. Projetar a interação
+     4. Avaliar a usabilidade
+4. Rastrear o uso no mundo real e melhorar continuamente o site
