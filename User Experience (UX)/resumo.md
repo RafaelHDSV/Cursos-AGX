@@ -1,3 +1,5 @@
+# Preparando o cenário
+
 ## Os benefícios comerciais da experiência do usuário
 
 -    Planeje visitas de campo para entrevistar e observar usuários
@@ -68,3 +70,25 @@
      3. Projetar a interação
      4. Avaliar a usabilidade
 4. Rastrear o uso no mundo real e melhorar continuamente o site
+
+# Indo para onde a ação está: Entendendo os usuários em contexto
+
+# Como obter um nicho rapidamente
+
+# Atividades de design de UX - Crie seu portfólio de UX
+
+# O que um ônibus de Londres pode nos ensinar sobre usabilidade?
+
+# Além de "fácil de usar": Medindo a experiência do usuário
+
+# Estrutura e navegação do site: Encontrar é o novo fazer
+
+# Design de interação: Regras simples para projetar telas simples
+
+# "E eu tenho os dados para provar": Como avaliar a usabilidade
+
+# O que vem depois? Colocando seu conhecimento em prática
+
+# Perguntas frequentes (conteúdo opcional)
+
+# Vídeos bônus e downloads (conteúdo opcional)
