@@ -73,6 +73,10 @@
 
 # Indo para onde a ação está: Entendendo os usuários em contexto
 
+## Como a usabilidade depende do “contexto de uso”
+
+-    Contexto de uso...
+
 # Como obter um nicho rapidamente
 
 # Atividades de design de UX - Crie seu portfólio de UX
