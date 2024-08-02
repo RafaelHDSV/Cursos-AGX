@@ -1,0 +1,47 @@
+nav .active {
+	background-color: var(--light-gray);
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 2rem;
+	width: 100%;
+	padding: 2rem 22rem;
+}
+
+.menu a {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	box-shadow: 0 0 50px var(--dark-red);
+	border: 2px solid var(--dark-red);
+	overflow: hidden;
+}
+
+.menu a:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.menu a img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.menu a img:hover {
+	transform: scale(1.2);
+}
+
+.menu a span {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #000;
+	color: var(--white);
+	padding: 0.5rem;
+	opacity: 0.8;
+	z-index: 999;
+}

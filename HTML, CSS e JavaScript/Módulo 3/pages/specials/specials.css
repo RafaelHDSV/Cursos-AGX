@@ -1,0 +1,72 @@
+main h2 {
+	font-weight: 500;
+	font-size: 30px;
+}
+
+nav .active {
+	background-color: var(--light-gray);
+}
+
+main section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(570px, 1fr));
+	gap: 2rem;
+	width: 100%;
+	padding: 2rem 22rem;
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 0.5rem;
+}
+
+.image {
+	position: relative;
+	border: 1px solid var(--black);
+	overflow: hidden;
+}
+
+.image img {
+	height: 131px;
+	object-fit: contain;
+	cursor: pointer;
+}
+
+.image img:hover {
+	transform: scale(1.2);
+}
+
+.image span {
+	position: absolute;
+	background-color: var(--green);
+	padding: 0.3rem 2rem;
+	bottom: 0rem;
+	right: 0rem;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 18rem;
+}
+
+.right h2 {
+	font-size: 1.5em;
+}
+
+.right p {
+	font-size: 0.9em;
+	font-style: italic;
+	max-height: 5rem;
+	overflow: hidden;
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Módulo 2</title>
+
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+			}
+
+			h1 {
+				font-size: 36px;
+				text-align: center;
+				color: green;
+			}
+
+			header li {
+				list-style: none;
+			}
+
+			a:link,
+			a:visited {
+				display: block;
+				background-color: green;
+				color: black;
+				border: 1px solid blue;
+				text-align: center;
+				text-decoration: none;
+				max-width: 200px;
+				width: 100vw;
+				margin-bottom: 0.5rem;
+			}
+
+			a:hover,
+			a:active {
+				background-color: red;
+				color: purple;
+			}
+
+			header li:nth-child(3) {
+				font-size: 24px;
+			}
+
+			#bg {
+				width: 500px;
+				height: 500px;
+
+				background: url('https://picsum.photos/200/300') no-repeat
+					right center blue;
+				/*
+				pode ser usado em uma única linha
+
+				background-color: blue;
+				background-image: url('https://picsum.photos/200/300');
+				background-repeat: no-repeat;
+				background-position: bottom; */
+			}
+
+			section div:nth-child(odd) {
+				background-color: gray;
+			}
+
+			section div:nth-child(4):hover {
+				background-color: green;
+			}
+
+			p {
+				font-size: 20px;
+				color: blue;
+				width: 200px;
+			}
+
+			.red {
+				text-decoration: line-through;
+				color: red;
+			}
+
+			#important {
+				font-weight: bold;
+				color: aqua;
+			}
+
+			#floating {
+				background-color: #00ffff;
+			}
+
+			.p1,
+			.p2,
+			.p3,
+			.p4 {
+				width: 50px;
+				height: 50px;
+				border: 1px solid black;
+			}
+
+			.p1 {
+				background-color: #a52a2a;
+				float: left;
+			}
+			.p2 {
+				background-color: #deb887;
+				float: right;
+			}
+			.p3 {
+				background-color: #5f9ea0;
+			}
+			.p4 {
+				background-color: #ff7f50;
+			}
+
+			#floating section {
+				clear: left;
+			}
+
+			/* uso do "E" em media query */
+			/* @media (min-width: 768px) and (max-width: 991px) {} */
+
+			/* uso do "ou" em media query */
+			/* @media (min-width: 768px), (max-width: 991px) {} */
+
+			#responsive h2 {
+				margin-bottom: 15px;
+			}
+
+			#responsive p {
+				border: 1px solid black;
+				background-color: #a52a2a;
+				width: 90%;
+				height: 150px;
+				margin: 0 auto;
+				font-family: Helvetica;
+				color: white;
+			}
+
+			#responsive .row {
+				display: grid;
+				width: 100%;
+			}
+
+			#responsive .col-lg-1,
+			#responsive .col-lg-2,
+			#responsive .col-lg-3,
+			#responsive .col-lg-4,
+			#responsive .col-lg-5,
+			#responsive .col-lg-6,
+			#responsive .col-lg-7,
+			#responsive .col-lg-8,
+			#responsive .col-lg-9,
+			#responsive .col-lg-10,
+			#responsive .col-lg-11,
+			#responsive .col-lg-12 {
+				float: left;
+				border: 1px solid green;
+			}
+
+			#responsive .col-lg-1 {
+				width: 8.33%;
+			}
+			#responsive .col-lg-2 {
+				width: 16.6%;
+			}
+			#responsive .col-lg-3 {
+				width: 25%;
+			}
+			#responsive .col-lg-4 {
+				width: 33%;
+			}
+			#responsive .col-lg-5 {
+				width: 44.66%;
+			}
+			#responsive .col-lg-6 {
+				width: 50%;
+			}
+			#responsive .col-lg-7 {
+				width: 58.33%;
+			}
+			#responsive .col-lg-8 {
+				width: 66.66%;
+			}
+			#responsive .col-lg-9 {
+				width: 74.99%;
+			}
+			#responsive .col-lg-10 {
+				width: 83.33%;
+			}
+			#responsive .col-lg-11 {
+				width: 91.66%;
+			}
+			#responsive .col-lg-12 {
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+
+		<header>
+			<ul>
+				<li>
+					<a href="https://uol.com.br" target="_blank">Home</a>
+				</li>
+				<li>
+					<a href="https://uol.com.br" target="_blank"
+						>AngularJS Course</a
+					>
+				</li>
+				<li>
+					<a href="https://uol.com.br" target="_blank"
+						>Facebook Fan Page</a
+					>
+				</li>
+			</ul>
+		</header>
+
+		<div id="bg">Backdground properties</div>
+
+		<section>
+			<div>DIV 1</div>
+			<div>DIV 2</div>
+			<div>DIV 3</div>
+			<div>DIV 4</div>
+			<div>DIV 5</div>
+			<div>DIV 6</div>
+			<div>DIV 7</div>
+			<div>DIV 8</div>
+			<div>DIV 9</div>
+			<div>DIV 10</div>
+			<div>DIV 11</div>
+			<div>DIV 12</div>
+			<div>DIV 13</div>
+			<div>DIV 14</div>
+			<div>DIV 15</div>
+			<div>DIV 16</div>
+			<div>DIV 17</div>
+			<div>DIV 18</div>
+			<div>DIV 19</div>
+			<div>DIV 20</div>
+		</section>
+
+		<h2>Subtítulo 1</h2>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+			aliquam eaque corporis, id dolor delectus aut quasi quam quae
+			cupiditate in reiciendis totam quas deleniti placeat atque minima
+			mollitia asperiores?
+		</p>
+
+		<h2 class="red">Subtítulo 2</h2>
+		<p id="important">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+			aliquam eaque corporis, id dolor delectus aut quasi quam quae
+			cupiditate in reiciendis totam quas deleniti placeat atque minima
+			mollitia asperiores?
+		</p>
+
+		<h2>Floating Elements</h2>
+
+		<div id="floating">
+			<p class="p1"></p>
+			<p class="p2"></p>
+			<p class="p3"></p>
+			<p class="p4"></p>
+			<section>
+				This is regular content continuiing after the paragraph
+				boxes.
+			</section>
+		</div>
+
+		<div id="responsive">
+			<h2>Responsive Design</h2>
+
+			<div class="row">
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 1</p>
+				</div>
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 2, wow this is cool</p>
+				</div>
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 3</p>
+				</div>
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 4</p>
+				</div>
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 5, this is cool</p>
+				</div>
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 6</p>
+				</div>
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 7</p>
+				</div>
+				<div class="col-lg-3 col-lg-6">
+					<p>Item 8</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

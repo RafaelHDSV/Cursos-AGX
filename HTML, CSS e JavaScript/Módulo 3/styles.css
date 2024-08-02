@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+/* font-family: "Oxygen", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap');
+/*   font-family: "Lora", serif; */
+
+:root {
+	--white: #ffffff;
+	--light-gray: #e7e7e7;
+	--green: #557c3e;
+	--yellow: #f6b319;
+	--dark-red: #3f0c1f;
+	--red: #61122f;
+	--black: #363636;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+	transition: 200ms all ease;
+}
+
+body {
+	font-size: 16px;
+	color: var(--white);
+	background-color: var(--red);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 10rem;
+	background-color: var(--yellow);
+	gap: 1rem;
+	padding: 0 22rem;
+}
+
+.header-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	gap: 2rem;
+}
+
+header img {
+	max-width: 9rem;
+	width: 100%;
+}
+
+header img:hover {
+	transform: scale(0.8);
+}
+
+.restaurant-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 100%;
+	padding-top: 2rem;
+	gap: 0.5rem;
+}
+
+.restaurant-info h1 {
+	font-family: 'Lora', serif;
+	color: var(--green);
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.restaurant-info .kosher {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.3rem;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 0.9rem;
+}
+
+.restaurant-info .kosher img {
+	width: 1.5rem;
+}
+
+nav {
+	display: flex;
+	align-items: flex-start;
+	height: 100%;
+	gap: 1rem;
+	padding-top: 1rem;
+}
+
+nav .nav-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+nav .nav-item:hover {
+	background-color: var(--light-gray);
+}
+
+nav .nav-item img {
+	object-fit: contain;
+	max-width: 2rem;
+	width: 100%;
+}
+
+nav .nav-item span {
+	color: var(--red);
+}
+
+nav .nav-item:last-child {
+	align-items: flex-end;
+}
+
+nav .nav-item:last-child span:first-child {
+	font-size: 1.8em;
+}
+
+nav .nav-item:last-child span:last-child {
+	color: var(--green);
+}
+
+.mobile {
+	display: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 0;
+}
+.jumbotron {
+	box-shadow: 0 0 50px var(--dark-red);
+	border-radius: 0.5rem;
+	border: 2px solid var(--dark-red);
+}
+
+.pages {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 2rem 22rem;
+	gap: 2rem;
+}
+.pages .page-item {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 15.625rem;
+	box-shadow: 0 0 50px var(--dark-red);
+	border: 2px solid var(--dark-red);
+	overflow: hidden;
+}
+
+.pages .page-item:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.pages .page-item:nth-child(1) {
+	background-image: url('./assets/menu-tile.jpg');
+}
+.pages .page-item:nth-child(2) {
+	background-image: url('./assets/specials-tile.jpg');
+}
+.pages .page-item:nth-child(3) {
+	background-image: url('./assets/menu-tile.jpg');
+}
+
+.pages .page-item span {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 1.6em;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #000;
+	color: var(--white);
+	padding: 0.5rem;
+	opacity: 0.8;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #222;
+	padding: 2rem 18rem;
+}
+
+footer .infos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+footer .info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.4rem;
+	width: 20rem;
+	line-height: 2;
+}
+
+footer .info p {
+	font-size: 1.3em;
+	padding-bottom: 0.3rem;
+}
+
+footer .info .delivery {
+	color: var(--green);
+	font-size: 0.8em;
+	line-height: 1.8;
+}
+
+footer .info:last-child span {
+	font-style: italic;
+}
+
+footer .copy {
+	padding: 2rem 0 0 0;
+	text-align: center;
+	width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+	header img {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/* adicionar nav mobile */
+}
