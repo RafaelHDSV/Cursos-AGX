@@ -41,12 +41,12 @@
 6. A equipe de design inclui habilidades e perspectivas multidisciplinares.
      - Além de especialistas técnicos, as melhores equipes de design contêm pesquisadores de uso, designers de interação, designers de conteúdo e desenvolvedores front-end. Essas equipes são pequenas, baseadas em projetos, co-localizadas e multidisciplinares.
 
-## ISO 9241 - A standard for usability
+## ISO 9241 - Um padrão para usabilidade
 
--    International standard on usability and user experience, it's more a process.
+-    Padrão internacional sobre usabilidade e experiência do usuário, é mais um processo.
 
-1. Plan the human-centred design process
-2. Understand and specify the context of use
-3. Specify the user requirements
-4. Produce design solutions to meet user requirements
-5. Evaluate the designs agains requirements
+1. Planeje o processo de design centrado no ser humano
+2. Entenda e especifique o contexto de uso
+3. Especifique os requisitos do usuário
+4. Produza soluções de design para atender aos requisitos do usuário
+5. Avalie os designs em relação aos requisitos
