@@ -143,13 +143,47 @@
 
 ## Visitas práticas de campo, etapa 5 - Diagramação de afinidade e mapeamento de história do usuário
 
+-    Um hábito final que vejo em grandes pesquisadores de usuários é que eles sabem como analisar dados qualitativos.
+-    Um mapa de jornada do usuário mostra a sequência de etapas que um usuário executa através de alcançar seu objetivo.
+     -    Comece com um conjunto de notas adesivas que contêm o observações que você fez durante a visita ao local.
+     -    Trabalhando em equipe, agrupe as observações em tarefas comuns que as pessoas realizam.
+     -    Em seguida, rotule cada uma das tarefas com um nome abreviado. Este não precisa ser o termo que os usuários usam para descrever a tarefa como é apenas a sua própria abreviação
+     -    Agora organize as tarefas em um conjunto de colunas verticais, mostrar tarefas que ocorrem no início da experiência tarefas que ocorrem mais tarde.
+     -    Como uma etapa opcional, você pode querer agrupar alguns dos tarefas em fases que fazem sentido.
+
 ## Apresentando resultados como mapas de empatia e storyboards
+
+-    **Mapa de Empatia**: A maneira como você os desenvolve é pedir à sua equipe de design para tente entrar na mente do seu usuário e pensar sobre suas experiências sensoriais.
+-    **Storyboarding**: Ajudar a todos a entender o que está acontecendo e isso para pessoas.
 
 ## Técnicas de guerrilha para pesquisa do usuário
 
+-    **Diário de Estudo**: Dê aos usuários um diário ou um blog para gravar seus pensamentos, experiências e impressões sobre o tópico discutido.
+     -    Essa abordagem pode fornecer grandes insights sobre o que importa do ponto de vista do seu cliente e ajude a gerar ideias de design para atender a essas necessidades.
+
 ## Três mitos sobre visitas de campo
 
+-    A primeira é que você pode descobrir as necessidades do usuário com pesquisas e grupos focais.
+-    O segundo mito é que o seu trabalho como um pesquisador de usuários é aprender sobre os usuários. É seu trabalho ajudar sua equipe a aprender sobre os usuários.
+-    O terceiro mito é que as visitas de campo e os testes de usabilidade são intercambiáveis.
+
 # Como obter um nicho rapidamente
+
+## Por que o usuário médio não existe
+
+## Introdução às Personas
+
+## Passo a passo de um estudo de caso de persona
+
+## Passo a passo de um caso de persona, continuação
+
+## Os benefícios das personas
+
+## As armadilhas das personas
+
+## Divulgando suas personas
+
+## A lista de verificação de persona de 7 etapas
 
 # Atividades de design de UX - Crie seu portfólio de UX
 
