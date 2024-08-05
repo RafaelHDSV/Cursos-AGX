@@ -9,8 +9,7 @@
      -    Não precisará de tanta ajuda e suporte e, quando precisar, usará o site para obter suporte em vez de ligar para o centro de suporte.
      -    Pagará um prêmio porque você facilita a vida deles
 -    A usabilidade aprimorada reduz custos porque você:
-     -    Gasta tempo desenvolvendo apenas as funções que os usuários desejam
-     -    Detecta e corrige problemas de usabilidade no início do processo de desenvolvimento
+     ## Gasta tempo desenvolvendo apenas as funções que os usuários dese Detecta e corrige problemas de usabilidade no início do processo de desenvolvimento
      -    Reduz o risco de falha causado pela falta de compreensão dos requisitos
      -    Minimiza ou elimina a necessidade de documentação
 
@@ -313,6 +312,136 @@
 
 # **Design de interação: Regras simples para projetar telas simples**
 
+## Introdução à Seção 8
+
+## Modelos mentais, modelos conceituais, affordances e significantes
+
+## Alguns exemplos de modelos mentais
+
+## Design esquemático versus design plano
+
+## Padrões de design de interface de usuário e consistência
+
+## Divulgação progressiva
+
+## Escolhendo o controle de interface de usuário correto
+
+## Caixas de seleção, botões de opção e Lei de Fitts
+
+## O menu suspenso - O controle de IU de último recurso?
+
+## Expectativas sobre o layout da página da web
+
+## O efeito estético de usabilidade e o princípio do contraste
+
+## O princípio do alinhamento
+
+## Os princípios da repetição e proximidade
+
+## Redesigne de formulário - Alinhamento
+
+## Guia do Bluffers para rastreamento ocular
+
+## Redesigne de formulário - Rótulos
+
+## Redesigne de formulário - O protocolo de perguntas
+
+## Redesigne de formulário - Palavras-chave e toques finais
+
+## Introdução à prototipagem em papel
+
+## Exemplos de protótipos em papel
+
+## Um protótipo em papel em ação
+
+## Acertando o design e obtendo o design certo
+
+## Pontos fortes e fracos da prototipagem em papel
+
+## O que há em um kit de prototipagem em papel?
+
+## Visão geral das ferramentas de prototipagem eletrônica
+
+## Atividade de prototipagem - Briefing
+
+## Exemplos de trabalho do aluno - Prototipagem
+
 # **"E eu tenho os dados para provar": Como avaliar a usabilidade**
 
+## Introdução à Seção 9
+
+## Os 2 tipos de avaliação de usabilidade
+
+## Teste de usabilidade formativo e somativo
+
+## Por que 5 usuários são (geralmente) suficientes para um teste de usabilidade
+
+## Teste de usabilidade presencial e remoto
+
+## Recebendo o participante e dando instruções
+
+## Fazendo os participantes pensarem em voz alta
+
+## Criando bons cenários de teste de usabilidade
+
+## Mantendo uma cara de pôquer e lembrando os participantes de pensarem em voz alta
+
+## Funções em um teste de usabilidade - moderador, computador e observador
+
+## Observações e interpretações
+
+## Priorizando problemas de usabilidade
+
+## Exemplos de trabalho do aluno - Teste de usabilidade
+
+## Exemplo de trabalho do aluno: Vídeo de um teste de usabilidade para "Find My Pet"
+
+## Heurísticas de usabilidade de Jakob Nielsen
+
+## Visibilidade do status do sistema
+
+## Correspondência entre o sistema e o mundo real
+
+## Controle do usuário e livre
+
+## Consistência e padrões
+
+## Ajudar os usuários a reconhecer, diagnosticar e se recuperar de erros
+
+## Prevenção de erros
+
+## Reconhecimento em vez de recall
+
+## Flexibilidade e eficiência de uso
+
+## Design estético e minimalista
+
+## Ajuda e documentação
+
+## Por que você precisa de mais de um revisor
+
+## Diretrizes de acessibilidade da Web
+
 # **O que vem depois? Colocando seu conhecimento em prática**
+
+## Introdução à Seção 10
+
+## Como convencer seu gerente de que UX importa
+
+## Obtendo usuários para sua primeira atividade de pesquisa de usuário
+
+## Construindo sua carreira em UX dentro de sua organização
+
+## Criando um Portfólio de UX
+
+## Exemplo de Trabalho do Aluno: Carrinho de Compras de Amanhã
+
+## Exemplo de Trabalho do Aluno: Doador de Presentes
+
+## Exemplos de Trabalho do Aluno: Revisão do Portfólio de UX
+
+## O que torna um ótimo Portfólio de UX? Pontos de aprendizagem da revisão do Portfólio
+
+## Colocando seu conhecimento em prática
+
+## Por favor, me dê seu feedback sobre o curso
