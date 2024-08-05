@@ -255,9 +255,22 @@
 
 ## Introdução ao Lean UX
 
+-    **The Lean Startup**:
+     -    Projetar novos produtos ou serviços é arriscado porque há tantas incertezas.
+     -    A equipe de design tem um conjunto de hipóteses ( sobre os usuários, seus objetivos e o que eles pagarão) e para reduzir a incerteza, essas hipóteses precisam para ser testadas.
+     -    Então, identificamos essas hipóteses e depois projetamos experimentos para testá-los.
+     -    Executamos esses testes em versões mínimas do produto com funcionalidade limitada porque esses sistemas mínimos são rápido e fácil de criar.
+     -    Com base nos resultados dos testes, continuamos a desenvolver a ideia ou mudamos de direção e desenvolvemos um produto que tem mais valor para os clientes, baseado nos testes.
+-    Os princípios do Lean StartUp são simples e profundos no ao mesmo tempo: a ideia é não esperar pela perfeição quando criar algo novo, mas apenas para obter um mínimo viável produto' (a versão mais básica viável) na frente de um cliente o mais rápido possível.
+
 ## Teste de Hipóteses de Problemas e Soluções
 
+-    Hipótese do Problema: É a nossa suposição sobre a necessidade do usuário.
+-    Hipótese da Solução: Este é o nosso design que achamos que atende às necessidades do usuário.
+
 ## Definindo e medindo a usabilidade
+
+-    **Usabilidade**: A extensão em que um produto pode ser usado por usuários específicos para atingir objetivos específicos com eficácia, eficiência e satisfação em um contexto de uso específico.
 
 ## Medindo a Eficácia
 
