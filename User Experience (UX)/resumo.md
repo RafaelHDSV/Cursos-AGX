@@ -271,6 +271,10 @@
 ## Definindo e medindo a usabilidade
 
 -    **Usabilidade**: A extensão em que um produto pode ser usado por usuários específicos para atingir objetivos específicos com eficácia, eficiência e satisfação em um contexto de uso específico.
+     -    Se descompactarmos essa definição, há três atributos que se destacam:
+          1. **Efetividade**: As pessoas podem completar suas tarefas? Eles podem completar os objetivos que nós os estabelecemos?
+          2. **Eficiência**: Isso significa quanto esforço ou carga de trabalho é necessária, como o tempo.
+          3. **Satisfação**: isso significa que, depois que os usuários concluírem suas tarefas, como eles se sentem sobre a experiência?
 
 ## Medindo a Eficácia
 
