@@ -1,4 +1,4 @@
-# Preparando o cenário
+# **Preparando o cenário**
 
 ## Os benefícios comerciais da experiência do usuário
 
@@ -71,7 +71,7 @@
      4. Avaliar a usabilidade
 4. Rastrear o uso no mundo real e melhorar continuamente o site
 
-# Indo para onde a ação está: Entendendo os usuários em contexto
+# **Indo para onde a ação está: Entendendo os usuários em contexto**
 
 ## Como a usabilidade depende do “contexto de uso”
 
@@ -180,12 +180,19 @@
 -    Então, podemos ter Rosie, por exemplo, ela compartilha a corrida da escola outras mães, ela gostaria de algo como um portador de pessoas onde ela pode basta deslizar a porta e as crianças podem vir caindo.
 -    Temos o Phil, ele gere o seu próprio negócio de jardinagem. Parece que ele se veste como um cowboy em seu tempo livre também. Mas de qualquer forma, ele gostaria de um caminhão que ele pode usar para jogar pedaços de idade árvore na parte de trás e levá-los longe das instalações de paisagismo
 -    E depois há o Nick, ele é o teu tipo de pré-recessão, solteiro, não crianças, empresário da internet. Ele gosta de posar pela cidade em um Porsche.
-
-## Passo a passo de um estudo de caso de persona
-
-## Passo a passo de um caso de persona, continuação
+-    Uma persona é uma descrição detalhada de uma pessoa imaginária que fornece uma compreensão compartilhada dos usuários de um sistema.
+     -    Uma persona é um esteriótipo de usuário, não um usuário "médio" ou um usuário real.
+-    Então você deve escolher uma persona primária que é principal e tem o comportamentos dos clientes mais difíceis de satisfazer.
+     -    Primeiro de tudo, passe por cada uma de suas personas e pergunte, "Eu tenho que permitir que essa pessoa tenha sucesso? Se essa pessoa nem sempre pode usar meu sistema com sucesso, é um fracasso?" Se você responder "Sim", a isso, o as chances são de que este vai ser o seu principal.
+     -    Em seguida, comece a comparar suas personas em pares.
+     -    E depois de criar um design que satisfaça as necessidades do primário persona, você pode colocar camadas no suporte para o necessidades não satisfeitas de personas secundárias.
 
 ## Os benefícios das personas
+
+-    Personas fazem suposições explícitas sobre os usuários.
+-    Eles também colocam ênfase em usuários específicos em vez de "todos"
+-    E também ao limitar nossas escolhas, as personas nos ajudam a fazer um design melhor decisões porque trabalhamos melhor quando estamos projetando dentro de um espaço limitado do que se pudéssemos fazer absolutamente tudo.
+-    Eles envolvem a equipe de desenvolvimento de design. Isso faz com que todos saibam quem são os usuários então não há mais ambiguidade. Todos podem falar sobre quem são seus usuários de maneira inteligente, mesmo por exemplo, usando seus nomes.
 
 ## As armadilhas das personas
 
@@ -193,20 +200,20 @@
 
 ## A lista de verificação de persona de 7 etapas
 
-# Atividades de design de UX - Crie seu portfólio de UX
+# **Atividades de design de UX - Crie seu portfólio de UX**
 
-# O que um ônibus de Londres pode nos ensinar sobre usabilidade?
+# **O que um ônibus de Londres pode nos ensinar sobre usabilidade?**
 
-# Além de "fácil de usar": Medindo a experiência do usuário
+# **Além de "fácil de usar": Medindo a experiência do usuário**
 
-# Estrutura e navegação do site: Encontrar é o novo fazer
+# **Estrutura e navegação do site: Encontrar é o novo fazer**
 
-# Design de interação: Regras simples para projetar telas simples
+# **Design de interação: Regras simples para projetar telas simples**
 
-# "E eu tenho os dados para provar": Como avaliar a usabilidade
+# **"E eu tenho os dados para provar": Como avaliar a usabilidade**
 
-# O que vem depois? Colocando seu conhecimento em prática
+# **O que vem depois? Colocando seu conhecimento em prática**
 
-# Perguntas frequentes (conteúdo opcional)
+# **Perguntas frequentes (conteúdo opcional)**
 
-# Vídeos bônus e downloads (conteúdo opcional)
+# **Vídeos bônus e downloads (conteúdo opcional)**
