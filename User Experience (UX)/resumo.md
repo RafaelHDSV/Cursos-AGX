@@ -196,11 +196,43 @@
 
 ## As armadilhas das personas
 
-## Divulgando suas personas
+1. O primeiro é garantir que as diferenças entre os seus personas refletem as diferenças que importam. Agora, do ponto de vista da experiência do usuário, as diferenças que importam são os comportamentos que as pessoas têm: seus objetivos e suas motivações.
+2. O segundo problema a evitar é não ter muitas personas. Então você quer um número relativamente pequeno, porque então isso facilita as decisões de design.
+3. Você também quer ter certeza de que as personas são baseadas em pesquisas. Eles têm que ser baseados em entrevistas e observação de usuários reais.
+
+-    E aqui estão os números que vou recomendar para você, 21 entrevistas e quatro personas.
 
 ## A lista de verificação de persona de 7 etapas
 
+-    **P**: Pesquisa primária: É a persona baseada no contexto de entrevistas com usuários reais
+-    **E**: Empatia: A persona evoca empatia ao incluir um nome, uma fotografia e uma narrativa relevante para o produto
+-    **R**: Realista: A persona parece realista para as pessoas quem lida com os usuários no dia-a-dia
+-    **S**: Singular: Cada persona é única, tendo pouco em comum com outras personas
+-    **O**: Objetivos: A persona inclui produto relevante metas de alto nível e incluir uma cotação indicando o objetivo principal
+-    **N**: Número: É o número de personas pequeno o suficiente para o equipe de design para lembrar o nome de cada um, com um dos personas identificadas como primárias
+-    **A**: Aplicável: A equipe de desenvolvimento pode usar o persona como uma ferramenta prática para tomar decisões de design
+
 # **Atividades de design de UX - Crie seu portfólio de UX**
+
+## Introdução às Atividades de Design
+
+## Encontre Meu Animal de Estimação
+
+## Jornalista Cidadão
+
+## Cartão Postal Digital
+
+## Doador de Presentes
+
+## Carrinho de Compras do Amanhã
+
+## Briefing de Pesquisa de Atividades de Design
+
+## Briefing de Grupos de Personas
+
+## Briefing de Criação de Personas
+
+## Exemplos de Trabalhos de Alunos - Personas
 
 # **O que um ônibus de Londres pode nos ensinar sobre usabilidade?**
 
