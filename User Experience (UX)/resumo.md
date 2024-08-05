@@ -9,7 +9,8 @@
      -    Não precisará de tanta ajuda e suporte e, quando precisar, usará o site para obter suporte em vez de ligar para o centro de suporte.
      -    Pagará um prêmio porque você facilita a vida deles
 -    A usabilidade aprimorada reduz custos porque você:
-     ## Gasta tempo desenvolvendo apenas as funções que os usuários dese Detecta e corrige problemas de usabilidade no início do processo de desenvolvimento
+     -    Gasta tempo desenvolvendo apenas as funções que os usuários desejam
+     -    Detecta e corrige problemas de usabilidade no início do processo de desenvolvimento
      -    Reduz o risco de falha causado pela falta de compreensão dos requisitos
      -    Minimiza ou elimina a necessidade de documentação
 
@@ -69,6 +70,17 @@
      3. Projetar a interação
      4. Avaliar a usabilidade
 4. Rastrear o uso no mundo real e melhorar continuamente o site
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # **Indo para onde a ação está: Entendendo os usuários em contexto**
 
@@ -166,7 +178,18 @@
 -    O segundo mito é que o seu trabalho como um pesquisador de usuários é aprender sobre os usuários. É seu trabalho ajudar sua equipe a aprender sobre os usuários.
 -    O terceiro mito é que as visitas de campo e os testes de usabilidade são intercambiáveis.
 
-# Como obter um nicho rapidamente
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# **Como obter um nicho rapidamente**
 
 ## Por que o usuário médio não existe
 
@@ -211,6 +234,17 @@
 -    **N**: Número: É o número de personas pequeno o suficiente para o equipe de design para lembrar o nome de cada um, com um dos personas identificadas como primárias
 -    **A**: Aplicável: A equipe de desenvolvimento pode usar o persona como uma ferramenta prática para tomar decisões de design
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # **Atividades de design de UX - Crie seu portfólio de UX**
 
 ## Briefing de Criação de Personas
@@ -219,6 +253,17 @@
      -    Fatos: Informações demográficas descritivas sobre sua persona.
      -    Comportamentos: Como a persona está resolvendo seu problema agora?
      -    Necessidades e objetivos: O que sua persona quer realizar?
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # **O que um ônibus de Londres pode nos ensinar sobre usabilidade?**
 
@@ -249,6 +294,17 @@
      1. É algo que um usuário real diria?
      2. Isso ajuda você a projetar e priorizar?
      3. Faz isso desnecessariamente restringir possíveis soluções?
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # **Além de "fácil de usar": Medindo a experiência do usuário**
 
@@ -288,6 +344,17 @@
 -    Pontuação média usando um questionário estabelecido
 -    Proporção de + para - adjetivos usados ​​para descrever o site
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 # **Estrutura e navegação do site: Encontrar é o novo fazer**
 
 ## Introdução - Os Elementos da Experiência do Usuário
@@ -310,9 +377,18 @@
 
 ## Palavras-gatilho
 
-# **Design de interação: Regras simples para projetar telas simples**
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## Introdução à Seção 8
+# **Design de interação: Regras simples para projetar telas simples**
 
 ## Modelos mentais, modelos conceituais, affordances e significantes
 
@@ -366,9 +442,18 @@
 
 ## Exemplos de trabalho do aluno - Prototipagem
 
-# **"E eu tenho os dados para provar": Como avaliar a usabilidade**
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## Introdução à Seção 9
+# **"E eu tenho os dados para provar": Como avaliar a usabilidade**
 
 ## Os 2 tipos de avaliação de usabilidade
 
@@ -422,9 +507,18 @@
 
 ## Diretrizes de acessibilidade da Web
 
-# **O que vem depois? Colocando seu conhecimento em prática**
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## Introdução à Seção 10
+# **O que vem depois? Colocando seu conhecimento em prática**
 
 ## Como convencer seu gerente de que UX importa
 
