@@ -80,27 +80,74 @@
      2.   A segunda coisa que ele nos diz é um pouco sobre o comportamento da equipe de desenvolvimento que estava montando esse sistema.
 -    Você não entenda a maneira como eles fazem as coisas, a menos que você faça essas coisas sozinho. "Se você é um designer, você não é o público-alvo."
 
-## What is a browser?
+## O que é um navegador?
 
-## What do users want?
+-    Quatro pessoas ou 8% das pessoas entrevistadas sabiam o que era um Browser de fato.
 
-## An introduction to contextual inquiry
+## O que os usuários querem?
 
-## Practical field visits, step 1 - Users
+-    Portanto, o ponto desses exemplos é que as pessoas podem não ter o nível de competência técnica que temos, e se projete a partir de nossa perspectiva, assumindo que eles têm isso nível de competência, então nossos usuários podem muito bem lutar.
+-    Por outro lado, nossos usuários podem saber tanto ou mais do que nós. Não pense que estou dizendo que os usuários não têm noção.
+-    A questão é que não sabes a menos que descubras.
+-    A primeira regra de descobrir o que as pessoas querem é: Não pergunte o que elas querem.
+-    Então, a melhor maneira de realizar uma pesquisa de usuário bem-sucedida não é perguntar, mas observar.
+     -    Seu objetivo é observar por tempo suficiente para que você possa fazer um palpite decente sobre o que se passa.
+     -    Existem duas maneiras de observar.
+          -    Podemos observar como as pessoas resolvem o problema agora.
+          -    Ou podemos teletransportar as pessoas para o futuro e levá-las usando sua solução (um protótipo) para ver onde os problemas surgirão.
+     -    O que as pessoas dizem não é tão útil quanto o que as pessoas fazem. As pessoas não são testemunhas confiáveis.
 
-## Practical field visits, step 2 - Focus
+## Uma introdução à investigação contextual
 
-## Practical field visits, step 3 - Recording
+-    Uma investigação contextual nos dirá o que as pessoas realmente fazem, em vez do que dizem que fazem.
+-    Existem quatro etapas principais em fazer uma investigação contextual:
+     1. **Contexto**: A investigação contextual tem que acontecer onde a ação está.
+     2. **Parceria**: A pessoa que você está observando tende a pensar em você como o especialista, fazendo perguntas que transmitem falta de confiança. A única coisa em que eles são especialistas é o trabalho deles. Então, a ideia é tentar subverter essa maneira de pensar e trate o usuário como o especialista.
+     3. **Interpretação**: Você irá ver muitas coisas diferentes, e inevitavelmente você vai começar a tirar conclusões precipitadas quando você vê as coisas. O que você precisa fazer é interpretar o que viu para verificar que o que você entendeu está correto.
+     4. **Foco**: Há muitas coisas que você pode observar quando você vai na casa de um usuário, ou no local de trabalho de um usuário. Reduza todas as coisas possíveis que você pode olhar, você precisa definir um ponto de vista que você vai tomar.
 
-## Practical field visits, step 4 - Notetaking
+## Visitas práticas de campo, etapa 1 - Usuários
 
-## Practical field visits, step 5 - Affinity Diagramming and User Story Mapping
+-    O primeiro hábito é que eles se certifiquem eles visitam os usuários certos.
+-    Se você sabe os principais tipos de usuários, entreviste 5 de cada tipo.
+-    Se você não sabe os tipos, entreviste 10 pessoas e faça uma revisão dos dados. E você verá tigos emergirem com base nas entrevistas.
+-    Então pegue seu sistema e pergunte: O que é sobre os meus usuários circunstâncias e habilidades que podem fazer o sistema difícil para eles usarem?
 
-## Presenting results as empathy maps and storyboards
+## Visitas práticas de campo, etapa 2 - Foco
 
-## Guerrilla techniques for user research
+-    Para criar um foco para sua pesquisa, você precisa para imaginar o mais útil, acionável resultados de pesquisa possíveis.
+-    O importante é manter as questões em aberto.
+-    Não faça perguntas que possam lhe dar uma resposta sim/não (a menos que você precise esclarecer algo específico).
+-    "Imagine que você está escrevendo um manual para alguém que está fazendo o seu trabalho ou fazer essa tarefa, ou o que quer que seja. Quais seriam os títulos principais no manual que você faria juntos?"
 
-## Three myths about field visits
+## Visitas práticas de campo, etapa 3 - Registro
+
+-    O próximo hábito que vejo em grandes pesquisadores de usuários é que eles gravar as sessões.
+-    "Vou fazer anotações durante a entrevista, mas se for OK com você Eu também gostaria de gravar a sessão como eu não posso tome notas com rapidez suficiente"
+-    "A gravação é apenas para os meus propósitos e tudo o que me disseres será mantido em sigilo"
+-    Você deve tirar três tipos de fotografia:
+     -    Fotos que mostrar o contexto geral, como fotografias do exterior do edifício e fotos de todo o escritório.
+     -    Imagens que mostram o participante ao lado de outras pessoas objetos no ambiente.
+     -    Fotografias em close do participante interagindo com objetos específicos em seu ambiente.
+
+## Visitas práticas de campo, etapa 4 - Anotações
+
+-    O próximo hábito que vejo em grandes pesquisadores de usuários é que eles tomam notas excelentes.
+-    Se você achar que sua mente fica em branco e você não tem certeza o que escrever, tente o método AEIOU (Atividades, Ambientes, Interações, Objetos e Usuários):
+     -    Atividades são objetivo conjuntos dirigidos de ações, coisas que as pessoas querem realizar.
+     -    Os ambientes incluem toda a área onde as atividades acontecem.
+     -    Interações são as trocas entre uma pessoa e alguém ou outra coisa qualquer.
+     -    Objetos são os artefatos com os quais as pessoas interagem.
+     -    Os usuários, é claro, são as pessoas que fornecem os comportamentos, preferências e necessidades.
+-    Em suas notas, você precisa distinguir claramente entre observações - coisas que você viu ou ouviu - e suas interpretações, que é a sua crença sobre o que causou isso.
+
+## Visitas práticas de campo, etapa 5 - Diagramação de afinidade e mapeamento de história do usuário
+
+## Apresentando resultados como mapas de empatia e storyboards
+
+## Técnicas de guerrilha para pesquisa do usuário
+
+## Três mitos sobre visitas de campo
 
 # Como obter um nicho rapidamente
 
