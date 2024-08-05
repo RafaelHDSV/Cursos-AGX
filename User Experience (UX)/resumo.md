@@ -227,7 +227,7 @@
 
 ## Rotas vermelhas, ou por que o featuritis não funciona
 
--    Rotas vermelhas nos fornecem uma visão incrível do que é que as pessoas querem fazer.
+-    As rotas vermelhas são uma matriz que ajuda a priorizar seu conteúdo e funcionalidade com base na utilidade para a maioria dos usuários. Elas nos fornecem uma visão incrível do que é que as pessoas querem fazer.
 
 -    Então você consegue esse foco nos objetivos do usuário com três passos simples.
      -    Identificar os objetivos do seu usuário.
@@ -244,19 +244,28 @@
 -    Se você não se concentrar em rotas vermelhas, você terá problemas.
      -    Um dos primeiros problemas é que você acaba deformando o arquitetura da informação.
 
-## Priorizando rotas vermelhas
-
-## Rotas vermelhas — Atividade rápida
-
-## Exemplos de trabalho de alunos - Rotas vermelhas
-
-## Como criar histórias de usuário à prova de balas para o Agile
-
 ## Testando uma história de usuário
 
-## Exemplos de trabalho de alunos - Histórias de usuário
+-    Como você testa uma história de usuário para ver se ela é boa?
+     1. É algo que um usuário real diria?
+     2. Isso ajuda você a projetar e priorizar?
+     3. Faz isso desnecessariamente restringir possíveis soluções?
 
 # **Além de "fácil de usar": Medindo a experiência do usuário**
+
+## Introdução ao Lean UX
+
+## Teste de Hipóteses de Problemas e Soluções
+
+## Definindo e medindo a usabilidade
+
+## Medindo a Eficácia
+
+## Medindo a Eficiência
+
+## Medindo a Satisfação
+
+## O Painel de Usabilidade
 
 # **Estrutura e navegação do site: Encontrar é o novo fazer**
 
