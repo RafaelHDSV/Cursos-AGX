@@ -289,9 +289,27 @@
 -    Pontuação média usando um questionário estabelecido
 -    Proporção de + para - adjetivos usados ​​para descrever o site
 
-## O Painel de Usabilidade
-
 # **Estrutura e navegação do site: Encontrar é o novo fazer**
+
+## Introdução - Os Elementos da Experiência do Usuário
+
+## Introdução à arquitetura da informação
+
+## LATCH - Os 5 Hat Racks para organizar informações
+
+## LATCH - Estudo de caso usando BBC iPlayer
+
+## Introdução à classificação de cartões
+
+## Demonstração de uma classificação de cartões online
+
+## Análise de dados de classificação de cartões
+
+## Exemplo de análise de classificação de cartões
+
+## Correspondências semânticas e navegação facetada
+
+## Palavras-gatilho
 
 # **Design de interação: Regras simples para projetar telas simples**
 
