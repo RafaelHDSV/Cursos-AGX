@@ -227,9 +227,22 @@
 
 ## Rotas vermelhas, ou por que o featuritis não funciona
 
+-    Rotas vermelhas nos fornecem uma visão incrível do que é que as pessoas querem fazer.
+
+-    Então você consegue esse foco nos objetivos do usuário com três passos simples.
+     -    Identificar os objetivos do seu usuário.
+     -    Expressar esses objetivos como histórias de usuário.
+     -    Projetar o software em torno das histórias do usuário.
+
 ## O que e o porquê das rotas vermelhas
 
-## A troca entre flexibilidade e usabilidade
+-    Seu sistema também tem certas rotas importantes viagens do usuário que precisam ser mantidas livres de obstáculos para que as pessoas podem completar suas tarefas o mais rápido possível, assim como as rotas vermelhas em Londres.
+-    Há algumas vantagens em pensar em rotas vermelhas.
+     -    Nos ajudam a nos concentrar no mais importante.
+     -    Produzem resultados acionáveis.
+-    "Eu sei que você tem mil ideias para todos os recursos legais O iTunes poderia ter. Nós também. Mas não queremos mil recursos. Isso seria feio. Inovação não é dizer 'Sim' para tudo. Trata-se de dizer 'Não' a todos, mas o mais crucial características."
+-    Se você não se concentrar em rotas vermelhas, você terá problemas.
+     -    Um dos primeiros problemas é que você acaba deformando o arquitetura da informação.
 
 ## Priorizando rotas vermelhas
 
@@ -252,7 +265,3 @@
 # **"E eu tenho os dados para provar": Como avaliar a usabilidade**
 
 # **O que vem depois? Colocando seu conhecimento em prática**
-
-# **Perguntas frequentes (conteúdo opcional)**
-
-# **Vídeos bônus e downloads (conteúdo opcional)**
