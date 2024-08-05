@@ -214,27 +214,34 @@
 
 # **Atividades de design de UX - Crie seu portfólio de UX**
 
-## Introdução às Atividades de Design
-
-## Encontre Meu Animal de Estimação
-
-## Jornalista Cidadão
-
-## Cartão Postal Digital
-
-## Doador de Presentes
-
-## Carrinho de Compras do Amanhã
-
-## Briefing de Pesquisa de Atividades de Design
-
-## Briefing de Grupos de Personas
-
 ## Briefing de Criação de Personas
 
-## Exemplos de Trabalhos de Alunos - Personas
+-    Aqui está o que sua persona conterá: Um esboço: Mostrar a persona contexto, com uma citação indicando a necessidade principal do usuário.
+     -    Fatos: Informações demográficas descritivas sobre sua persona.
+     -    Comportamentos: Como a persona está resolvendo seu problema agora?
+     -    Necessidades e objetivos: O que sua persona quer realizar?
 
 # **O que um ônibus de Londres pode nos ensinar sobre usabilidade?**
+
+## Introdução à Seção 5
+
+## Rotas vermelhas, ou por que o featuritis não funciona
+
+## O que e o porquê das rotas vermelhas
+
+## A troca entre flexibilidade e usabilidade
+
+## Priorizando rotas vermelhas
+
+## Rotas vermelhas — Atividade rápida
+
+## Exemplos de trabalho de alunos - Rotas vermelhas
+
+## Como criar histórias de usuário à prova de balas para o Agile
+
+## Testando uma história de usuário
+
+## Exemplos de trabalho de alunos - Histórias de usuário
 
 # **Além de "fácil de usar": Medindo a experiência do usuário**
 
