@@ -278,9 +278,16 @@
 
 ## Medindo a Eficácia
 
+-    Taxa de sucesso: Porcentagem de participantes que atingem correta e completamente cada meta (sem assistência).
+
 ## Medindo a Eficiência
 
+-    O tempo médio necessário para concluir cada tarefa (junto com o intervalo e o desvio padrão).
+
 ## Medindo a Satisfação
+
+-    Pontuação média usando um questionário estabelecido
+-    Proporção de + para - adjetivos usados ​​para descrever o site
 
 ## O Painel de Usabilidade
 
