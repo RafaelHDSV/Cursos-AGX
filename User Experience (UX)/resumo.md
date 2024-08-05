@@ -75,7 +75,32 @@
 
 ## Como a usabilidade depende do “contexto de uso”
 
--    Contexto de uso...
+-    Contexto de uso é uma descrição dos usuários, tarefas, equipamentos (hardware, software e materiais) e os ambientes físico e social nos quais um produto é usado.
+     1.   A primeira coisa que ele nos diz é que os usuários adaptarão nosso sistema para corresponder à maneira como eles trabalham - quer gostemos ou não
+     2.   A segunda coisa que ele nos diz é um pouco sobre o comportamento da equipe de desenvolvimento que estava montando esse sistema.
+-    Você não entenda a maneira como eles fazem as coisas, a menos que você faça essas coisas sozinho. "Se você é um designer, você não é o público-alvo."
+
+## What is a browser?
+
+## What do users want?
+
+## An introduction to contextual inquiry
+
+## Practical field visits, step 1 - Users
+
+## Practical field visits, step 2 - Focus
+
+## Practical field visits, step 3 - Recording
+
+## Practical field visits, step 4 - Notetaking
+
+## Practical field visits, step 5 - Affinity Diagramming and User Story Mapping
+
+## Presenting results as empathy maps and storyboards
+
+## Guerrilla techniques for user research
+
+## Three myths about field visits
 
 # Como obter um nicho rapidamente
 
