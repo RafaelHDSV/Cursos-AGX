@@ -171,7 +171,15 @@
 
 ## Por que o usuário médio não existe
 
+-    **A pessoa média não existe**. Podem existir estatísticas de uma pessoa média, mas é muito difícil para encontrar alguém que marque todas as estatísticas.
+-    "Eu não sei a chave para o sucesso, mas a chave para o fracasso é tentando agradar a todos,"
+
 ## Introdução às Personas
+
+-    E agora se nós escolhemos várias pessoas e fomos projetar um carro para atender as suas necessidades específicas?
+-    Então, podemos ter Rosie, por exemplo, ela compartilha a corrida da escola outras mães, ela gostaria de algo como um portador de pessoas onde ela pode basta deslizar a porta e as crianças podem vir caindo.
+-    Temos o Phil, ele gere o seu próprio negócio de jardinagem. Parece que ele se veste como um cowboy em seu tempo livre também. Mas de qualquer forma, ele gostaria de um caminhão que ele pode usar para jogar pedaços de idade árvore na parte de trás e levá-los longe das instalações de paisagismo
+-    E depois há o Nick, ele é o teu tipo de pré-recessão, solteiro, não crianças, empresário da internet. Ele gosta de posar pela cidade em um Porsche.
 
 ## Passo a passo de um estudo de caso de persona
 
