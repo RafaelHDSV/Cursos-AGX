@@ -355,17 +355,27 @@
 
 # **Estrutura e navegação do site: Encontrar é o novo fazer**
 
-## Introdução - Os Elementos da Experiência do Usuário
-
 ## Introdução à arquitetura da informação
+
+-    Na verdade, a arquitetura de informações é um subconjunto de um campo de experiência do usuário.
+-    É realmente focado em ajudar as pessoas a ter acesso ao tipo de informação que eles estão atrás de tal
+-    Portanto, a arquitetura da informação é o meio pelo qual obtemos uma pilha de conteúdo aleatório desorganizado para algo mais estruturado.
+-    A forma como a informação é apresentada e organizada é tão importante quanto o conteúdo.
 
 ## LATCH - Os 5 Hat Racks para organizar informações
 
-## LATCH - Estudo de caso usando BBC iPlayer
+-    Cinco maneiras que você pode organizar qualquer tipo de informação:
+     -    **Localização**: Escolhido quando a informação que você está comparando vem de várias fontes diferentes.
+     -    **Alfabeto**: Organização alfabética comum. Por exemplo, se você está projetando um site que vende blusas não basta listar seu produto sob o letra C para camisola porque as pessoas também podem usar termos como pulôver ou saltador, então você deve usá-los.
+     -    **Tempo**: Use para organizar informações que acontecem sequencialmente, como programações de TV, linhas do tempo históricas ou um procedimento passo a passo.
+     -    **Categoria**: Use ao organizar informações que tenham grupos ou clusters óbvios, como categorias de notícias em um jornal on-line, áreas de estudo em um catálogo de cursos ou raças de cães.
+     -    **Hierarquia**: Use para organizar informações que podem ser ilustradas com números ou unidades, como do menor para o maior, ordem de importância, etc.
 
 ## Introdução à classificação de cartões
 
-## Demonstração de uma classificação de cartões online
+-    Nós pegamos um monte de coisas desorganizadas, onde cada uma dessas cartas representa o título de uma função em nosso sistema ou uma página em nosso site com uma breve descrição do que se trata.
+-    E então damos esses cartões aos nossos usuários e dizemos Coloque esses cartões em grupos que façam sentido você.
+-    Em seguida, eu coleto os dados de cerca de 15 ou mais usuários e, em seguida, a partir desses dados, eu analiso os grupos comuns.
 
 ## Análise de dados de classificação de cartões
 
