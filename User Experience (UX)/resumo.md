@@ -267,8 +267,6 @@
 
 # **O que um ônibus de Londres pode nos ensinar sobre usabilidade?**
 
-## Introdução à Seção 5
-
 ## Rotas vermelhas, ou por que o featuritis não funciona
 
 -    As rotas vermelhas são uma matriz que ajuda a priorizar seu conteúdo e funcionalidade com base na utilidade para a maioria dos usuários. Elas nos fornecem uma visão incrível do que é que as pessoas querem fazer.
