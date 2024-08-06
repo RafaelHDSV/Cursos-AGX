@@ -398,9 +398,11 @@
 
 ## Modelos mentais, modelos conceituais, affordances e significantes
 
-## Alguns exemplos de modelos mentais
+-    **Arquitetura de Informação**: A disciplina que garante que os usuários possam encontrar as funções, recursos ou conteúdo de que precisam para realizar suas tarefas.
 
-## Design esquemático versus design plano
+-    **Design de Interação**: O processo de identificar soluções de design e criar protótipos de interfaces de usuário.
+
+-    **Acessibilidade**: As propriedades de um objeto que sugerem às pessoas como o objeto pode ser interagido. Isso deve ser distinguido de um significante, que indica como algo é projetado para ser interagido para obter um resultado pretendido.
 
 ## Padrões de design de interface de usuário e consistência
 
