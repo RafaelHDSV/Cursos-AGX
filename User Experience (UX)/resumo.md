@@ -639,20 +639,16 @@
 
 ## Como convencer seu gerente de que UX importa
 
+-    Pense estrategicamente
+-    Recrute um campeão de alto nível
+-    Aumente a conscientização
+-    Demonstre o ROI
+-    Fale a linguagem certa
+
 ## Obtendo usuários para sua primeira atividade de pesquisa de usuário
 
-## Construindo sua carreira em UX dentro de sua organização
-
-## Criando um Portfólio de UX
-
-## Exemplo de Trabalho do Aluno: Carrinho de Compras de Amanhã
-
-## Exemplo de Trabalho do Aluno: Doador de Presentes
-
-## Exemplos de Trabalho do Aluno: Revisão do Portfólio de UX
-
-## O que torna um ótimo Portfólio de UX? Pontos de aprendizagem da revisão do Portfólio
-
-## Colocando seu conhecimento em prática
-
-## Por favor, me dê seu feedback sobre o curso
+-    Ofereça um incentivo
+-    Diga às pessoas que elas estão projetando o futuro
+-    Conquiste um usuário influente
+-    Simplesmente entre entre seus usuários
+-    Pague por um recrutador
