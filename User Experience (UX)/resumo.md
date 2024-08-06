@@ -472,29 +472,21 @@
 -    **Gráfico de olhar**: Uma representação momento a momento do movimento dos olhos do usuário na tela.
 -    **Mapa de calor**: Uma representação das diferentes áreas da tela onde o usuário passou mais tempo olhando.
 
-## Redesigne de formulário - Rótulos
-
 ## Redesigne de formulário - O protocolo de perguntas
 
-## Redesigne de formulário - Palavras-chave e toques finais
+-    Ter um único campo de nome, para acomodar todas as nacionalidades nomeando preferências de ordem sufixos e títulos.
 
-Introdução à prototipagem em papel
+## Introdução à prototipagem em papel
 
-Exemplos de protótipos em papel
-
-## Um protótipo em papel em ação
+-    Na maioria dos projetos, a primeira construção do sistema é quase inutilizável. A única questão é se deve planejar com antecedência a construção de um descartável ou prometer entregar o descartável aos clientes.
+-    **Protótipo**: Representação concreta de uma ideia de design que serve ao propósito de fazer e responder perguntas de design.
 
 ## Acertando o design e obtendo o design certo
 
-## Pontos fortes e fracos da prototipagem em papel
-
-## O que há em um kit de prototipagem em papel?
-
-## Visão geral das ferramentas de prototipagem eletrônica
-
-Atividade de prototipagem - Briefing
-
-Exemplos de trabalho do aluno - Prototipagem
+-    O design interativo adota 3 princípios:
+     1. Reconhece que nenhum design é sagrado, não importa o quão grande pareça no papel ou na tela ou quem criou o próprio design.
+     2. Reconhece que o seu uso dele define um sucesso ou fracasso de seu projeto.
+     3. A razão pela qual o protótipo funciona é porque ele permite que você reaja rapidamente quando algo não funciona trabalhe e itere até que seus usuários digam que está certo.
 
 <br>
 <br>
@@ -511,7 +503,18 @@ Exemplos de trabalho do aluno - Prototipagem
 
 ## Os 2 tipos de avaliação de usabilidade
 
+1. **Inspeção de usabilidade**: Na verdade, um punhado de especialistas trabalhando de forma independente usa a interface para tentar encontrar problemas com ela. Esses especialistas usarão um conjunto de princípios ou diretrizes de usabilidade para avaliar a interface.
+2. **Teste de usabilidade**: Você envolve usuários reais. Você pede que usuários reais se sentem na frente do sistema e você pede que eles façam tarefas reais. Você os observa. Você descobre onde eles lutam e você se cala.
+
 ## Teste de usabilidade formativo e somativo
+
+-    Existem alguns tipos de testes de usabilidade, mas existem dois principais:
+     -    **Teste Formativo**: O participante pensa em voz alta, como ele ou ela trabalha.
+          -    O moderador pode estar sentado ao lado do participante ou você pode executar esse tipo de teste pela internet e assistir o participante via compartilhamento de tela.
+          -    Uma forma de teste de usabilidade iterativo que visa encontrar problemas com um sistema para que eles possam ser corrigidos.
+     -    **Teste Sumativo**: O participante trabalha sozinho.
+          -    O moderador provavelmente ainda observará um espelho unidirecional ou talvez um link de vídeo, mas, em alguns casos, o moderador pode nem estar presente.
+          -    Uma forma de teste de usabilidade que visa medir métricas de usabilidade, como eficácia, eficiência e satisfação.
 
 ## Por que 5 usuários são (geralmente) suficientes para um teste de usabilidade
 
