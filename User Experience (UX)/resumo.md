@@ -423,6 +423,12 @@
 
 ## Divulgação progressiva
 
+-    Os usuários nos dizem que querem todos os recursos e opções disponíveis para eles, mas eles também nos dizem que querem que seja fácil também.
+-    **Divulgação Progressiva**: É uma técnica de design de interação que ajuda a manter o foco da atenção de um usuário, reduzindo confusão e carga de trabalho cognitiva.
+     1. Inicialmente, mostre aos usuários apenas algumas das opções mais importantes.
+     2. Em seguida, ofereça um conjunto maior de opções especializadas mediante solicitação.
+     3. Divulgue esses recursos secundários somente se um usuário os solicitar, o que significa que a maioria dos usuários pode prosseguir com suas tarefas sem se preocupar com essa complexidade adicional.
+
 ## Escolhendo o controle de interface de usuário correto
 
 ## Caixas de seleção, botões de opção e Lei de Fitts
@@ -447,9 +453,9 @@
 
 ## Redesigne de formulário - Palavras-chave e toques finais
 
-## Introdução à prototipagem em papel
+Introdução à prototipagem em papel
 
-## Exemplos de protótipos em papel
+Exemplos de protótipos em papel
 
 ## Um protótipo em papel em ação
 
@@ -461,9 +467,9 @@
 
 ## Visão geral das ferramentas de prototipagem eletrônica
 
-## Atividade de prototipagem - Briefing
+Atividade de prototipagem - Briefing
 
-## Exemplos de trabalho do aluno - Prototipagem
+Exemplos de trabalho do aluno - Prototipagem
 
 <br>
 <br>
