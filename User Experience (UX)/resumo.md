@@ -542,41 +542,87 @@
      -    Não dão dicas sobre o caminho correto (um teste de usabilidade não é um teste de aceitação do usuário).
      -    Têm uma solução correta (para que você saiba se a tarefa foi concluída com sucesso).
 
-## Funções em um teste de usabilidade - moderador, computador e observador
-
-## Observações e interpretações
-
 ## Priorizando problemas de usabilidade
 
-## Exemplos de trabalho do aluno - Teste de usabilidade
+![alt text](image-3.png)
 
-## Exemplo de trabalho do aluno: Vídeo de um teste de usabilidade para "Find My Pet"
+-    **Crítico**: Este problema de usabilidade fará com que alguns usuários não queiram ou não consigam concluir uma tarefa comum. Corrija urgentemente.
+-    **Sério**: Este problema de usabilidade deixará significativamente alguns usuários mais lentos ao concluir uma tarefa comum e pode fazer com que os clientes encontrem uma solução alternativa. Corrija o mais rápido possível.
+-    **Médio**: Este problema de usabilidade fará com que alguns usuários se sintam frustrados ou irritados, mas não afetará a conclusão da tarefa. Corrija durante a próxima atualização de "negócios como de costume".
+-    **Baixo**: Este é um problema de qualidade, por exemplo, um problema cosmético ou um erro de ortografia. Observação: Embora este seja um problema menor isoladamente, muitos "baixos" reduzem a percepção de confiança.
 
 ## Heurísticas de usabilidade de Jakob Nielsen
 
+-    Uma heurística significa simplesmente uma regra de ouro. Uma palavra elegante para orientação
+
+-    **Heurísticas de usabilidade de Jakob Nielsen**:
+     1. Visibilidade do status do sistema
+     2. Correspondência entre o sistema e o mundo real
+     3. Controle e liberdade do usuário
+     4. Consistência e padrões
+     5. Ajuda os usuários a reconhecer, diagnosticar e se recuperar de erros
+     6. Prevenção de erros
+     7. Reconhecimento em vez de recall
+     8. Flexibilidade e eficiência de uso
+     9. Design estético e minimalista
+     10. Ajuda e documentação
+
 ## Visibilidade do status do sistema
+
+-    Os usuários devem ser mantidos informados sobre o progresso do sistema com feedback apropriado dentro de um prazo razoável.
 
 ## Correspondência entre o sistema e o mundo real
 
+-    O sistema deve usar conceitos e linguagem que são familiares ao sistema termos orientados ao usuário em vez de ao sistema.
+-    O sistema deve falar o idioma do usuário.
+
 ## Controle do usuário e livre
+
+-    Os usuários devem poder fazer o que quiserem quando quiserem.
+-    E a razão para isso é que os usuários geralmente escolhem as funções do sistema por engano e precisam de uma espécie de saída de emergência.
 
 ## Consistência e padrões
 
+-    Projetar elementos como objetos e ações que tenham o mesmo significado ou efeito em diferentes situações.
+
 ## Ajudar os usuários a reconhecer, diagnosticar e se recuperar de erros
+
+-    Ajudar os usuários a reconhecer o diagnóstico e a se recuperar de erros.
 
 ## Prevenção de erros
 
+-    Pode ser levado a cometer um erro que um bom design evitaria.
+
 ## Reconhecimento em vez de recall
+
+-    Um usuário não tem que se lembrar de coisas de uma parte do sistema para outra.
 
 ## Flexibilidade e eficiência de uso
 
+-    As tarefas devem ser eficientes e devem nos ajudar em ações, como o uso de frequentes atalhos.
+
 ## Design estético e minimalista
+
+-    Não devem existir informações irrelevantes ou raramente necessárias, deve ser minimalista.
 
 ## Ajuda e documentação
 
-## Por que você precisa de mais de um revisor
+-    Devem existir informações de ajuda adequadas e informações fáceis de serem pesquisadas pelo usuário.
 
 ## Diretrizes de acessibilidade da Web
+
+-    Perceptível: As informações e os componentes da interface do usuário devem ser perceptíveis pelos usuários
+     -    Os usuários devem ser capazes de perceber as informações apresentadas (elas não podem ser invisíveis para todos os seus sentidos)
+-    Operável: Os componentes da interface do usuário devem ser operáveis ​​pelos usuário
+
+     -    Os usuários devem ser capazes de operar a interface (a interface não pode exigir interação que o usuário não possa executar)
+
+-    Compreensível: As informações e a operação da interface do usuário devem ser compreensíveis pelos usuários
+
+     -    Os usuários devem ser capazes de entender as informações, bem como a operação da interface do usuário (o conteúdo ou a operação não pode estar além de sua compreensão)
+
+-    Robusto: O conteúdo deve ser robusto o suficiente para que possa ser interpretado de forma confiável por uma ampla variedade de agentes do usuário, incluindo tecnologias assistenciais
+     -    Os usuários devem ser capazes de acessar o conteúdo conforme as tecnologias avançam (conforme as tecnologias e os agentes do usuário evoluem, o conteúdo deve permanecer acessível)
 
 <br>
 <br>
