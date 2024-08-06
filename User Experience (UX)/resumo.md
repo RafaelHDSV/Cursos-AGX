@@ -429,17 +429,33 @@
      2. Em seguida, ofereça um conjunto maior de opções especializadas mediante solicitação.
      3. Divulgue esses recursos secundários somente se um usuário os solicitar, o que significa que a maioria dos usuários pode prosseguir com suas tarefas sem se preocupar com essa complexidade adicional.
 
-## Escolhendo o controle de interface de usuário correto
-
 ## Caixas de seleção, botões de opção e Lei de Fitts
 
-## O menu suspenso - O controle de IU de último recurso?
+-    **Lei de Fitz**: Um alvo é uma função da distância e do tamanho do alvo. Em outras palavras, é fácil clicar em grandes coisas que estão perto do mouse pode pequenas coisas que são um muito longe.
 
 ## Expectativas sobre o layout da página da web
 
+![alt text](image-1.png)
+
+-    Declare as informações mais importantes nos dois primeiros parágrafos.
+-    Mantenha o conteúdo crítico "acima da dobra"
+-    Comece subtítulos, parágrafos e marcadores com palavras-gatilho. Os usuários notarão isso ao escanear o lado esquerdo do seu conteúdo na haste F
+-    Não coloque informações importantes no lado direito da página
+-    Um estudo com mais de 65.000 páginas da web descobriram que 45% de todos os cliques acontecem no quadrante superior esquerdo da página quando visto acima da dobra.
+
 ## O efeito estético de usabilidade e o princípio do contraste
 
+-    Utilizamos o acrônimo da CARPA, ou seja, Contraste, Alinhamento, Repetição e Proximidade.
+-    **C** ou Contraste
+-    **A** ou Alinhamento
+-    **R** ou Repetição
+-    **P** ou Proximidade
+
+-    **Contraste**: O objetivo do contraste é organizar a página e torná-la mais interessante. Determine qual será o foco e use o contraste para criá-lo.
+
 ## O princípio do alinhamento
+
+-    **Alinhamento**:
 
 ## Os princípios da repetição e proximidade
 
