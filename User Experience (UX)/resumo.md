@@ -377,13 +377,11 @@
 -    E então damos esses cartões aos nossos usuários e dizemos Coloque esses cartões em grupos que façam sentido você.
 -    Em seguida, eu coleto os dados de cerca de 15 ou mais usuários e, em seguida, a partir desses dados, eu analiso os grupos comuns.
 
-## Análise de dados de classificação de cartões
-
-## Exemplo de análise de classificação de cartões
-
-## Correspondências semânticas e navegação facetada
-
 ## Palavras-gatilho
+
+-    Se, em vez disso, olharmos para dizer presentes e flores de John Lewis. E se eu me comprasse um relógio não é realmente um presente e também vale flores. Isso meio que dá um toque feminino ao que é esse tópico. O que torna menos provável que os homens possam usá-lo para comprar o relógio de um homem.
+
+![alt text](image.png)
 
 <br>
 <br>
