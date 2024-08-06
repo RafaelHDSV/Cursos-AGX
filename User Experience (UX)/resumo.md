@@ -516,17 +516,31 @@
           -    O moderador provavelmente ainda observará um espelho unidirecional ou talvez um link de vídeo, mas, em alguns casos, o moderador pode nem estar presente.
           -    Uma forma de teste de usabilidade que visa medir métricas de usabilidade, como eficácia, eficiência e satisfação.
 
-## Por que 5 usuários são (geralmente) suficientes para um teste de usabilidade
-
 ## Teste de usabilidade presencial e remoto
+
+-    **Teste de usabilidade presencial**:
+
+     -    O moderador e o participante sentam-se em uma sala.
+     -    Os observadores podem ver o moderador e o participante através de um espelho unidirecional e ouvir a conversa deles pelo sistema de áudio integrado do laboratório.
+     -    Os observadores têm uma visão de perto da tela do participante por meio de software de compartilhamento de tela.
+
+-    **Teste de usabilidade remoto (moderado)**:
+     -    O participante realiza o teste em sua casa ou mesa do escritório.
+     -    O moderador usa software de compartilhamento de tela para ver a tela do participante e apresenta as tarefas ao participante pelo telefone.
+     -    Os observadores usam software de conferência para visualizar o teste pela Internet.
 
 ## Recebendo o participante e dando instruções
 
-## Fazendo os participantes pensarem em voz alta
+-    Você pode precisar demonstrar o pensamento em voz alta e deixar o participante praticar.
+-    Se o participante esquecer de pensar em voz alta, investigue com perguntas abertas. Caso contrário, fique quieto.
 
 ## Criando bons cenários de teste de usabilidade
 
-## Mantendo uma cara de pôquer e lembrando os participantes de pensarem em voz alta
+-    Bons cenários de teste de usabilidade:
+     -    São expressos na linguagem do usuário (eles evitam jargões específicos do sistema).
+     -    Realistas, ou seja, eles descrevem coisas que o usuário normalmente esperaria fazer.
+     -    Não dão dicas sobre o caminho correto (um teste de usabilidade não é um teste de aceitação do usuário).
+     -    Têm uma solução correta (para que você saiba se a tarefa foi concluída com sucesso).
 
 ## Funções em um teste de usabilidade - moderador, computador e observador
 
