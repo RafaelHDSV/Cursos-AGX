@@ -455,13 +455,22 @@
 
 ## O princípio do alinhamento
 
--    **Alinhamento**:
+-    **Alinhamento**: O propósito do alinhamento é unificar e organizar a tela. Nada deve ser colocado na página arbitrariamente Cada item deve ter uma conexão visual com outra coisa na página.
 
 ## Os princípios da repetição e proximidade
 
-## Redesigne de formulário - Alinhamento
+-    **Repetição**: O propósito da repetição é criar consistência e adicionar interesse visual. Repita elementos visuais por toda a IU, como fontes, tamanhos, cores, formas, texturas, relações espaciais, espessuras de linhas, conceitos gráficos, etc.
+-    **Proximidade**: O propósito da proximidade é organizar e agrupar as várias partes da UI. Todos os itens relacionados devem ser divididos em partes ou agrupados para que os itens relacionados sejam feitos para aparecer como grupos coesos.
 
 ## Guia do Bluffers para rastreamento ocular
+
+-    **Rastreamento Ocular**: Uma técnica usada para medir o ponto de olhar (para onde o usuário está olhando) ou o movimento do olho do usuário em relação à cabeça.
+-    Conforme você move seu olho, a posição da pupila e o reflexo da córnea mudam em relação um ao outro. Os rastreadores oculares exploram esse efeito criando um reflexo (usando luz invisível, quase infravermelha) e então medindo as posições relativas do reflexo e da pupila para descobrir para onde você está olhando.
+-    **Saccade**: O movimento do olho de uma parte do campo visual para outra
+-    **Fixação**: A pausa de um movimento ocular em uma área específica do campo visual.
+-    ![alt text](image-2.png)
+-    **Gráfico de olhar**: Uma representação momento a momento do movimento dos olhos do usuário na tela.
+-    **Mapa de calor**: Uma representação das diferentes áreas da tela onde o usuário passou mais tempo olhando.
 
 ## Redesigne de formulário - Rótulos
 
