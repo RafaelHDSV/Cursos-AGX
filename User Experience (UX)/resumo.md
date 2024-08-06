@@ -406,6 +406,21 @@
 
 ## Padrões de design de interface de usuário e consistência
 
+-    **Espaços de trabalho paralelos**: Permite que os usuários alternem as visualizações para alcançar conjuntos distintos de ferramentas e informações. A navegação está disponível de forma persistente.
+
+     -    Use quando seus usuários realizam conjuntos distintos de tarefas.
+
+-    **Assistentes e túneis**: Guie o usuário pela interface passo a passo, realizando tarefas em uma ordem prescrita.
+
+     -    Use quando estiver projetando uma IU para uma tarefa longa ou complicada, e que será nova para o usuário - não é algo que ele faz com frequência ou sobre o qual deseja muito controle refinado.
+
+-    **O espaço de trabalho do organizador**: Coloque painéis lado a lado na interface. Em um, mostre um conjunto de itens que o usuário pode selecionar à vontade; no outro, mostre o conteúdo do item selecionado.
+
+     -    Use quando estiver apresentando uma lista de objetos, categorias ou ações e o usuário precisar obter mais detalhes.
+
+-    **Hub e Spoke (menu hierárquico)**: Os usuários retornam a um hub central, como uma tela de menu principal, para fazer a transição de uma atividade para a próxima.
+     -    Use quando estiver projetando uma interface de usuário em que as pessoas só desejarão concluir um pequeno número de tarefas por vez, como suporte por telefone, quiosques, caixas eletrônicos e DVDs.
+
 ## Divulgação progressiva
 
 ## Escolhendo o controle de interface de usuário correto
