@@ -28,7 +28,7 @@
 
 ## Terceira Lição
 
-### Nesta lição, aprendemos que:
+### Nesta lição, aprendemos:
 
 -    Os componentes da função podem retornar múltiplos JSX linhas aninhando os elementos em um elemento pai.
 -    Atributos variáveis podem ser usados dentro de um componente React com injeções JavaScript.
