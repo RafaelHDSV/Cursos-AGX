@@ -117,3 +117,9 @@
 -    O onChange o evento usa um manipulador de eventos para capturar alterações e determinar quais ações devem ser tomadas.
 -    Um formulário React usa o hook de estado para armazenar o valor do campo de entrada no estado componentilits. O estado pode então ser atualizado com o setter de estados.
 -    Os componentes de reação podem ser controlados ou não controlados. A maioria dos formulários React são controlados, pois controlam o valor inputilits com o estado.
+
+# Documentação:
+
+-    Em ciência da computação (e especialmente no mundo da programação funcional), o, uma função pura é uma função com as seguintes características:
+     -    Ele cuida de seu próprio negócio. Ele não altera nenhum objeto ou variável que existia antes de ser chamado.
+     -    Mesmas entradas, mesma saída. Dadas as mesmas entradas, uma função pura deve sempre retornar o mesmo resultado.
