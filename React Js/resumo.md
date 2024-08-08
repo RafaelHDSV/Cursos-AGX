@@ -128,6 +128,20 @@
 -    e.stopPropagation() impedir que os manipuladores de eventos associados às tags superiores sejam acionados.
 -    e.preventDefault() impedir que o navegador execute o comportamento padrão associado a determinados eventos.
 
--    O porque de usar useState() e não variaveis comuns:
-     1.   Variáveis locais não persistentes entre renderizações. Quando o React renderiza esse componente uma segunda vez, ele o faz do principio—sem considerar quem quer mudanças às variáveis locais.
-     2.   Mudanças às variáveis locais não acionam renderizações. O React não percebe que precisa renderizar o componente novo com os novos dados.
+-    O porque de usar useState() e não variaveis comuns: 1. Variáveis locais não persistentes entre renderizações. Quando o React renderiza esse componente uma segunda vez, ele o faz do principio—sem considerar quem quer mudanças às variáveis locais. 2. Mudanças às variáveis locais não acionam renderizações. O React não percebe que precisa renderizar o componente novo com os novos dados.
+
+-    ### **Matriz**:
+
+     -    **Adicionando**:
+          -    Muda a matriz (evitar): push, unshift
+          -    Retorna uma nova matriz (preferir): concat, [...arr] sintaxe de propagação
+     -    **Removendo**:
+          -    Muda a matriz (evitar): pop, shift, splice
+          -    Retorna uma nova matriz (preferir): filter, slice
+     -    **Substituindo**:
+          -    Muda a matriz (evitar): splice, arr[i] = ... atribuição
+          -    Retorna uma nova matriz (preferir): map
+     -    **Classificando**:
+
+          -    Muda a matriz (evitar): reverse, sort
+          -    Retorna uma nova matriz (preferir): copie a matriz primeiro
