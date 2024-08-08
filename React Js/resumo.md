@@ -121,5 +121,13 @@
 # Documentação:
 
 -    Em ciência da computação (e especialmente no mundo da programação funcional), o, uma função pura é uma função com as seguintes características:
+
      -    Ele cuida de seu próprio negócio. Ele não altera nenhum objeto ou variável que existia antes de ser chamado.
      -    Mesmas entradas, mesma saída. Dadas as mesmas entradas, uma função pura deve sempre retornar o mesmo resultado.
+
+-    e.stopPropagation() impedir que os manipuladores de eventos associados às tags superiores sejam acionados.
+-    e.preventDefault() impedir que o navegador execute o comportamento padrão associado a determinados eventos.
+
+-    O porque de usar useState() e não variaveis comuns:
+     1.   Variáveis locais não persistentes entre renderizações. Quando o React renderiza esse componente uma segunda vez, ele o faz do principio—sem considerar quem quer mudanças às variáveis locais.
+     2.   Mudanças às variáveis locais não acionam renderizações. O React não percebe que precisa renderizar o componente novo com os novos dados.
