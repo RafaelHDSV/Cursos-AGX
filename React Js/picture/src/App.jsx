@@ -23,8 +23,6 @@ export default function App() {
 				alt='Casas de arco-íris em Kampung Pelangi, Indonésia'
 				onClick={pictureClass}
 			/>
-
-			<span>Hello</span>
 		</div>
 	);
 }
