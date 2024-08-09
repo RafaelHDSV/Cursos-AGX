@@ -145,3 +145,24 @@
 
           -    Muda a matriz (evitar): reverse, sort
           -    Retorna uma nova matriz (preferir): copie a matriz primeiro
+
+### Princípios para estruturar useStates()
+
+-    Quando você escreve um componente que mantém algum estado, você terá que fazer escolhas sobre quantas variáveis de estado usar e qual deve ser a forma dos dados. Embora seja possível escrever programas corretos mesmo com uma estrutura de estado subótima, existem alguns princípios que podem orientá-lo a fazer escolhas melhores:
+
+     -    Agrupe estados relacionados. Se você sempre atualiza duas ou mais variáveis de estado ao mesmo tempo, considere uni-las em uma única variável de estado.
+     -    Evite contradições no estado. Quando o estado é estruturado de forma que várias partes do estado possam se contradizer e “discordar” umas das outras, você deixa espaço para erros. Tente evitar isso.
+     -    Evite estados redundantes. Se você puder calcular algumas informações das props do componente ou de suas variáveis de estado existentes durante a renderização, não coloque essas informações no estado desse componente.
+     -    Evite duplicação no estado. Quando os mesmos dados são duplicados entre várias variáveis de estado, ou dentro de objetos aninhados, é difícil mantê-los sincronizados. Reduza a duplicação quando puder.
+     -    Evite estados muito aninhados. Um estado muito hierárquico não é muito conveniente para atualizar. Quando possível, prefira estruturar o estado de forma plana.
+
+          ```
+          const [x, setX] = useState(0);
+          const [y, setY] = useState(0);
+          ```
+
+          Troque por
+
+          ```
+          const [position, setPosition] = useState({ x: 0, y: 0 });
+          ```
