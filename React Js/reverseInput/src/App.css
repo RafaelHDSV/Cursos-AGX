@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	font-family: sans-serif;
+	background-color: #363636;
+	color: #fafafa;
+}
+
+code {
+	font-size: 1.2em;
+}
+
+ul {
+	padding-inline-start: 20px;
+}
+
+label {
+	display: block;
+	margin: 10px 0;
+}
