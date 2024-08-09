@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	transition: 300ms all ease;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #161616;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+code {
+	font-size: 1.2em;
+}
+
+ul {
+	padding-inline-start: 20px;
+}
+
+input {
+	outline: 0;
+	border: none;
+	width: 100%;
+	margin-top: 0.8rem;
+	padding: 0.5rem;
+}
+label {
+	display: block;
+}
