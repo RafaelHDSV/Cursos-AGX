@@ -57,7 +57,7 @@
 -    Receber um manipulador de eventos prop e anexá-lo a um ouvinte de eventos.
 -    Nomear manipuladores de eventos e atributos de manipuladores de eventos de acordo com uma convenção.
 -    Acessando props.children.
--    Atribuindo valores padrão para adereços.
+-    Atribuindo valores padrão para props.
 
 ## Sexta Lição
 
@@ -95,7 +95,7 @@
 -    Componentes de apresentação criados e exportados contendo apenas JSX.
 -    Importou os componentes de apresentação para o componente de contêiner.
 -    Utilizou os componentes de apresentação na declaração de retorno do componente de contêiner.
--    Estado passado e funções usadas para alterar o estado como adereços para os componentes de apresentação renderizados.
+-    Estado passado e funções usadas para alterar o estado como props para os componentes de apresentação renderizados.
 
 ## Nona Lição
 
@@ -166,3 +166,22 @@
           ```
           const [position, setPosition] = useState({ x: 0, y: 0 });
           ```
+
+### useContext()
+
+-    O contexto permite que um componente pai forneça dados para toda a árvore abaixo dele. Há muitos usos para o contexto.
+-    Você pode fazer isso com props sozinho. É aqui que o contexto entra em jogo. Você fará isso em três etapas:
+
+          1. Criar um contexto. (Você pode chamá-lo LevelContext, uma vez que it“s para o nível de cabeçalho.)
+          2. Usar esse contexto do componente que precisa dos dados. (Heading usar LevelContext.)
+          3. Fornecer esse contexto do componente que especifica os dados. (Section irá fornecer LevelContext.)
+
+-    Contexto permite que um pai—mesmo um distante!—fornecer alguns dados para toda a árvore dentro dele.
+
+![alt text](image.png)
+
+-    Casos para usar o useContext()
+     -    **Temática**: Se o aplicativo permitir que o usuário altere sua aparência (por exemplo, modo escuro), você poderá colocar um provedor de contexto na parte superior do aplicativo, e use esse contexto em componentes que precisam ajustar sua aparência visual.
+     -    **Conta corrente**: Muitos componentes podem precisar conhecer o usuário conectado no momento. Colocá-lo em contexto torna conveniente lê-lo em qualquer lugar da árvore. Alguns aplicativos também permitem que você opere várias contas ao mesmo tempo (por exemplo, para deixar um comentário como um usuário diferente). Nesses casos, pode ser conveniente envolver uma parte da UI em um provedor aninhado com um valor de conta corrente diferente.
+     -    **Roteamento**: A maioria das soluções de roteamento usa o contexto internamente para manter a rota atual. É assim que cada link “knows” se it“ está ativo ou não. Se você construir seu próprio roteador, você pode querer fazê-lo também.
+     -    **Estado de gestão**: À medida que seu aplicativo cresce, você pode acabar com muito estado mais perto do topo do seu aplicativo.Muitos componentes distantes abaixo podem querer alterá-lo. É comum a use um redutor junto com o contexto para gerenciar o estado complexo e passá-lo para componentes distantes sem muito aborrecimento.
