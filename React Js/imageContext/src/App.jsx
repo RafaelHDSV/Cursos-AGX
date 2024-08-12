@@ -5,7 +5,7 @@ import { ImageSizeContext } from './Context.jsx';
 
 export default function App() {
 	const [isLarge, setIsLarge] = useState(false);
-	const imageSize = isLarge ? 150 : 100;
+	const imageSize = isLarge ? 400 : 100;
 	return (
 		<ImageSizeContext.Provider value={imageSize}>
 			<label>
