@@ -1,3 +1,5 @@
+// sempre atualiza o h3 antes e depois a imagem, para que sempre o título da imagem esteja junto com a imagem correta
+
 import { useState } from 'react';
 
 import './App.css';

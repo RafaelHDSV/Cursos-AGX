@@ -22,10 +22,20 @@ export default function Counter() {
 		setCount((c) => c + 1);
 	};
 
+	const ticksPerMinute = (count / 60).toFixed(2);
+
 	return (
 		<div className='App' onClick={handleClick}>
 			<h1>{count + ` tick${count > 1 ? 's' : ''}`}</h1>
-			<p>{minute + ` tick${count > 1 ? 's' : ''} por minuto`}</p>
+			<p>
+				{ticksPerMinute + ` tick${count > 1 ? 's' : ''} por minuto`}
+			</p>
+
+			<p>
+				{minute / 60 < 1
+					? minute + ' segundos'
+					: (count / 60).toFixed(0) + ' minutos'}
+			</p>
 			<span>Clique na tela para aumentar o número</span>
 		</div>
 	);

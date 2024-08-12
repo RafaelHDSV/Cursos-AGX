@@ -1,3 +1,5 @@
+// uso de Contexto para criar muitos subtítulos dentro de seções e seções, com o level sendo passado por useContext()
+
 import Heading from './Heading.jsx';
 import Section from './Section.jsx';
 
