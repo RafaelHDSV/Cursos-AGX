@@ -230,4 +230,11 @@
      -    Efeitos executados como um resultado de renderização. Definir estado gatilhos renderização. Definir o estado imediatamente em um efeito é como conectar uma tomada de energia em si mesma. O Efeito é executado, ele define o estado, o que causa uma re-renderização, o que faz com que o Efeito seja executado, ele define o estado novamente, isso causa outra re-renderização, e assim por diante.
 
 -    A matriz de dependências pode conter várias dependências. O React só pulará a execução do efeito novamente se tudo das dependências especificadas, você tem exatamente os mesmos valores que tinham durante a renderização anterior.
--    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido). Letilits ver o que acontece quando a função de limpeza é implementada:
+-    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido). Letilits ver o que acontece quando a função de limpeza é implementada
+-    ### Como remover Effects desnecessários
+     -    Existem dois casos comuns em que você não precisa de Effects:
+          -    Você não precisa de Effects para manipular seus dados para renderização.
+          -    Você não precisa de Effects para lidar com eventos do usuário.
+     -    Casos que você precisa de Effects:
+          -    Você precisa de Effects para sincronizar com sistemas externos.
+          -    Também é possível buscar dados com Effects.
