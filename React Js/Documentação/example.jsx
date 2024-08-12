@@ -1,57 +1,40 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { initialTodos, createTodo, getVisibleTodos } from './todos.js';
 
-export default function Gallery() {
-	const [index, setIndex] = useState(0);
-	const hasNext = index < images.length - 1;
+export default function TodoList() {
+	const [todos, setTodos] = useState(initialTodos);
+	const [showActive, setShowActive] = useState(false);
+	const [text, setText] = useState('');
+	const [visibleTodos, setVisibleTodos] = useState([]);
 
-	function handleClick() {
-		if (hasNext) {
-			setIndex(index + 1);
-		} else {
-			setIndex(0);
-		}
+	useEffect(() => {
+		setVisibleTodos(getVisibleTodos(todos, showActive));
+	}, [todos, showActive]);
+
+	function handleAddClick() {
+		setText('');
+		setTodos([...todos, createTodo(text)]);
 	}
 
-	let image = images[index];
 	return (
 		<>
-			<button onClick={handleClick}>Next</button>
-			<h3>
-				Image {index + 1} of {images.length}
-			</h3>
-			<img key={image.src} src={image.src} />
-			<p>{image.place}</p>
+			<label>
+				<input
+					type='checkbox'
+					checked={showActive}
+					onChange={(e) => setShowActive(e.target.checked)}
+				/>
+				Show only active todos
+			</label>
+			<input value={text} onChange={(e) => setText(e.target.value)} />
+			<button onClick={handleAddClick}>Add</button>
+			<ul>
+				{visibleTodos.map((todo) => (
+					<li key={todo.id}>
+						{todo.completed ? <s>{todo.text}</s> : todo.text}
+					</li>
+				))}
+			</ul>
 		</>
 	);
 }
-
-let images = [
-	{
-		place: 'Penang, Malaysia',
-		src: 'https://i.imgur.com/FJeJR8M.jpg',
-	},
-	{
-		place: 'Lisbon, Portugal',
-		src: 'https://i.imgur.com/dB2LRbj.jpg',
-	},
-	{
-		place: 'Bilbao, Spain',
-		src: 'https://i.imgur.com/z08o2TS.jpg',
-	},
-	{
-		place: 'Valparaíso, Chile',
-		src: 'https://i.imgur.com/Y3utgTi.jpg',
-	},
-	{
-		place: 'Schwyz, Switzerland',
-		src: 'https://i.imgur.com/JBbMpWY.jpg',
-	},
-	{
-		place: 'Prague, Czechia',
-		src: 'https://i.imgur.com/QwUKKmF.jpg',
-	},
-	{
-		place: 'Ljubljana, Slovenia',
-		src: 'https://i.imgur.com/3aIiwfm.jpg',
-	},
-];
