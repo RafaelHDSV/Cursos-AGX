@@ -207,9 +207,27 @@
      2. inputRef.current.focus();
 
 -    O React não permite que um componente acesse os nós DOM de outros componentes. Nem mesmo para seus próprios filhos! Isso é intencional. Refs são uma escotilha de fuga que deve ser usada com moderação. Manualmente manipulando outro os nós DOM do ComponentIcotiCats tornam seu código ainda mais frágil.
+-    ![alt text](image-1.png)
 
 ### useEffect()
 
 -    Effects são uma saída de emergência do paradigma do React. Eles permitem que você “contorne” o React e sincronize seus componentes com algum sistema externo. Se não houver sistema externo envolvido (por exemplo, se você quiser atualizar o estado de um componente com props ou mudança de estado), você não deveria usar um Effect. Remover Effects desnecessários tornará seu código mais fácil de se entender, mais rápido e menos propenso a erros.
 -    Effects têm um ciclo de vida diferente dos componentes. Componentes podem se montar, atualizar ou desmontar. Um Effect só pode fazer duas coisas: começar a sincronizar algo e, mais tarde, parar a sincronização. Esse ciclo pode acontecer múltiplas vezes se seu Effect depender de props e estado que possam mudar ao longo do tempo.
--    ![alt text](image-1.png)
+-    Para escrever um efeito, siga estes três passos:
+     1. **Declarar um Efeito**. Por padrão, seu efeito será executado após cada comprometer.
+     2. **Especifique as dependências de efeito**. A maioria dos Efeitos deve ser executada novamente quando necessário em vez de depois de cada renderização. Por exemplo, uma animação de fade-in só deve ser acionada quando um componente aparece. A conexão e desconexão a uma sala de bate-papo só deve acontecer quando o componente aparece e desaparece ou quando a sala de bate-papo muda. Você aprenderá como controlar isso especificando dependências.
+     3. **Adicione a limpeza, se necessário**. Alguns efeitos precisam especificar como parar, desfazer ou limpar o que eles estavam fazendo. Por exemplo, “connect” precisa de “disconnect”, “subscribe” precisa de “unsubscribe” e “fetch” precisa de “cancel” ou “ignore”. Você aprenderá como fazer isso retornando um função de limpeza.
+-    Loop infinito:
+
+     ```
+     const [count, setCount] = useState(0);
+
+     useEffect(() => {
+     setCount(count + 1);
+     });
+     ```
+
+     -    Efeitos executados como um resultado de renderização. Definir estado gatilhos renderização. Definir o estado imediatamente em um efeito é como conectar uma tomada de energia em si mesma. O Efeito é executado, ele define o estado, o que causa uma re-renderização, o que faz com que o Efeito seja executado, ele define o estado novamente, isso causa outra re-renderização, e assim por diante.
+
+-    A matriz de dependências pode conter várias dependências. O React só pulará a execução do efeito novamente se tudo das dependências especificadas, você tem exatamente os mesmos valores que tinham durante a renderização anterior.
+-    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido). Letilits ver o que acontece quando a função de limpeza é implementada:
