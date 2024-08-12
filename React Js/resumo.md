@@ -185,3 +185,24 @@
      -    **Conta corrente**: Muitos componentes podem precisar conhecer o usuário conectado no momento. Colocá-lo em contexto torna conveniente lê-lo em qualquer lugar da árvore. Alguns aplicativos também permitem que você opere várias contas ao mesmo tempo (por exemplo, para deixar um comentário como um usuário diferente). Nesses casos, pode ser conveniente envolver uma parte da UI em um provedor aninhado com um valor de conta corrente diferente.
      -    **Roteamento**: A maioria das soluções de roteamento usa o contexto internamente para manter a rota atual. É assim que cada link “knows” se it“ está ativo ou não. Se você construir seu próprio roteador, você pode querer fazê-lo também.
      -    **Estado de gestão**: À medida que seu aplicativo cresce, você pode acabar com muito estado mais perto do topo do seu aplicativo.Muitos componentes distantes abaixo podem querer alterá-lo. É comum a use um redutor junto com o contexto para gerenciar o estado complexo e passá-lo para componentes distantes sem muito aborrecimento.
+
+### useReducer()
+
+-    Um redutor ajuda a manter os manipuladores de eventos curtos e concisos. No entanto, à medida que seu aplicativo cresce, você pode encontrar outra dificuldade
+
+### useRef()
+
+-    Quando desejar que um componente “guarde” alguma informação, mas não que ela acione novas renderizações, você pode usar uma ref:
+-    ```
+     const ref = useRef(0);
+     ```
+-    Alguns usos do useRef():
+
+     1. let ref = useRef(0);
+        function handleClick() { ref.current }
+     2. inputRef.current.focus();
+
+### useEffect()
+
+-    Effects são uma saída de emergência do paradigma do React. Eles permitem que você “contorne” o React e sincronize seus componentes com algum sistema externo. Se não houver sistema externo envolvido (por exemplo, se você quiser atualizar o estado de um componente com props ou mudança de estado), você não deveria usar um Effect. Remover Effects desnecessários tornará seu código mais fácil de se entender, mais rápido e menos propenso a erros.
+-    Effects têm um ciclo de vida diferente dos componentes. Componentes podem se montar, atualizar ou desmontar. Um Effect só pode fazer duas coisas: começar a sincronizar algo e, mais tarde, parar a sincronização. Esse ciclo pode acontecer múltiplas vezes se seu Effect depender de props e estado que possam mudar ao longo do tempo.
