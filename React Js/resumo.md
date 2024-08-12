@@ -198,11 +198,16 @@
      ```
 -    Alguns usos do useRef():
 
-     1. let ref = useRef(0);
-        function handleClick() { ref.current }
+     1. Você pode acessar o valor atual daquele ref através da propriedade ref.current. Esse valor é intencionalmente mutável, o que significa que você pode tanto ler quanto escrever sobre ele. É como um bolso secreto do seu componente o qual o React não rastreia
+          ```
+          import { useRef } from 'react';
+          let ref = useRef(0);
+          function handleClick() { ref.current }
+          ```
      2. inputRef.current.focus();
 
 ### useEffect()
 
 -    Effects são uma saída de emergência do paradigma do React. Eles permitem que você “contorne” o React e sincronize seus componentes com algum sistema externo. Se não houver sistema externo envolvido (por exemplo, se você quiser atualizar o estado de um componente com props ou mudança de estado), você não deveria usar um Effect. Remover Effects desnecessários tornará seu código mais fácil de se entender, mais rápido e menos propenso a erros.
 -    Effects têm um ciclo de vida diferente dos componentes. Componentes podem se montar, atualizar ou desmontar. Um Effect só pode fazer duas coisas: começar a sincronizar algo e, mais tarde, parar a sincronização. Esse ciclo pode acontecer múltiplas vezes se seu Effect depender de props e estado que possam mudar ao longo do tempo.
+-    ![alt text](image-1.png)
