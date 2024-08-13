@@ -1,40 +1,49 @@
 import { useState, useEffect } from 'react';
-import { initialTodos, createTodo, getVisibleTodos } from './todos.js';
+import { experimental_useEffectEvent as useEffectEvent } from 'react';
 
-export default function TodoList() {
-	const [todos, setTodos] = useState(initialTodos);
-	const [showActive, setShowActive] = useState(false);
-	const [text, setText] = useState('');
-	const [visibleTodos, setVisibleTodos] = useState([]);
+export default function Timer() {
+	const [count, setCount] = useState(0);
+	const [increment, setIncrement] = useState(1);
+
+	const onTick = useEffectEvent(() => {
+		setCount((c) => c + increment);
+	});
 
 	useEffect(() => {
-		setVisibleTodos(getVisibleTodos(todos, showActive));
-	}, [todos, showActive]);
-
-	function handleAddClick() {
-		setText('');
-		setTodos([...todos, createTodo(text)]);
-	}
+		const id = setInterval(() => {
+			onTick();
+		}, 1000);
+		return () => {
+			clearInterval(id);
+		};
+	}, []);
 
 	return (
 		<>
-			<label>
-				<input
-					type='checkbox'
-					checked={showActive}
-					onChange={(e) => setShowActive(e.target.checked)}
-				/>
-				Show only active todos
-			</label>
-			<input value={text} onChange={(e) => setText(e.target.value)} />
-			<button onClick={handleAddClick}>Add</button>
-			<ul>
-				{visibleTodos.map((todo) => (
-					<li key={todo.id}>
-						{todo.completed ? <s>{todo.text}</s> : todo.text}
-					</li>
-				))}
-			</ul>
+			<h1>
+				Counter: {count}
+				<button onClick={() => setCount(0)}>Reset</button>
+			</h1>
+			<hr />
+			<p>
+				Every second, increment by:
+				<button
+					disabled={increment === 0}
+					onClick={() => {
+						setIncrement((i) => i - 1);
+					}}
+				>
+					–
+				</button>
+				<b>{increment}</b>
+				<button
+					onClick={() => {
+						setIncrement((i) => i + 1);
+					}}
+				>
+					+
+				</button>
+			</p>
 		</>
 	);
 }
