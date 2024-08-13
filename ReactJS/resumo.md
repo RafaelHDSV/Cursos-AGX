@@ -249,3 +249,21 @@
 -    Você deve seguir estas convenções de nomenclatura:
      -    Os nomes dos **componentes** do React devem vir com uma letra maiúscula, como StatusBar e SaveButton. Os componentes do React também precisam retornar algo que o React saiba como exibir, como um trecho de JSX.
      -    Os nomes dos **hooks** devem começar com use seguido por uma letra maiúscula, como useState (incorporado) ou useOnlineStatus (personalizado, como mencionado anteriormente na página). Ganchos podem retorno valores arbitrários.
+
+### &lt; Profiler /&gt;
+
+-    Profiler possibilidade medir o desenho de renderização de uma árvore React de forma programática.
+-    ```
+     <Profiler id="App" onRender={onRender}>
+       <App />
+     </Profiler>
+     ```
+
+### &lt;StrictMode/&gt;
+
+-    StrictMode permite que você encontre bugs comuns em seus componentes no início do desenvolvimento.
+-    ```
+     <StrictMode>
+       <App />
+     </StrictMode>
+     ```
