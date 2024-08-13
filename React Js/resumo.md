@@ -233,6 +233,8 @@
 
 -    A matriz de dependências pode conter várias dependências. O React só pulará a execução do efeito novamente se tudo das dependências especificadas, você tem exatamente os mesmos valores que tinham durante a renderização anterior.
 -    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido). Letilits ver o que acontece quando a função de limpeza é implementada
+-    Cada efeito em seu código deve representar um processo de sincronização separado e independente.
+
 -    ### Como remover Effects desnecessários
      -    Existem dois casos comuns em que você não precisa de Effects:
           -    Você não precisa de Effects para manipular seus dados para renderização.
