@@ -236,9 +236,16 @@
 -    Cada efeito em seu código deve representar um processo de sincronização separado e independente.
 
 -    ### Como remover Effects desnecessários
+
      -    Existem dois casos comuns em que você não precisa de Effects:
           -    Você não precisa de Effects para manipular seus dados para renderização.
           -    Você não precisa de Effects para lidar com eventos do usuário.
      -    Casos que você precisa de Effects:
           -    Você precisa de Effects para sincronizar com sistemas externos.
           -    Também é possível buscar dados com Effects.
+
+### Hooks Personalizados
+
+-    Você deve seguir estas convenções de nomenclatura:
+     -    Os nomes dos **componentes** do React devem vir com uma letra maiúscula, como StatusBar e SaveButton. Os componentes do React também precisam retornar algo que o React saiba como exibir, como um trecho de JSX.
+     -    Os nomes dos **hooks** devem começar com use seguido por uma letra maiúscula, como useState (incorporado) ou useOnlineStatus (personalizado, como mencionado anteriormente na página). Ganchos podem retorno valores arbitrários.
