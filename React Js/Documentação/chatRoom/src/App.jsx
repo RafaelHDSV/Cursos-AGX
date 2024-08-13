@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import { createConnection } from './chat.js';
+import { createConnection } from './chat.jsx';
 
-function ChatRoom({ roomId }) {
+function ChatRoom({ roomId, theme }) {
 	const [serverUrl, setServerUrl] = useState('https://localhost:1234');
 
 	useEffect(() => {
 		const connection = createConnection(serverUrl, roomId);
 		connection.connect();
 		return () => connection.disconnect();
-	}, [roomId, serverUrl]);
+	}, [roomId]);
 
 	return (
 		<>
@@ -26,6 +26,7 @@ function ChatRoom({ roomId }) {
 
 export default function App() {
 	const [roomId, setRoomId] = useState('general');
+
 	return (
 		<>
 			<label>
@@ -39,6 +40,7 @@ export default function App() {
 					<option value='music'>music</option>
 				</select>
 			</label>
+
 			<hr />
 			<ChatRoom roomId={roomId} />
 		</>
