@@ -111,15 +111,18 @@
 
 # Documentação do React (https://pt-br.react.dev/):
 
--    Em ciência da computação (e especialmente no mundo da programação funcional), uma função pura é uma função com as seguintes características:
+-    Uma função pura é uma função com as seguintes características:
 
      -    Ele cuida de seu próprio negócio. Ele não altera nenhum objeto ou variável que existia antes de ser chamado.
      -    Mesmas entradas, mesma saída. Dadas as mesmas entradas, uma função pura deve sempre retornar o mesmo resultado.
 
--    e.stopPropagation() impedir que os manipuladores de eventos associados às tags superiores sejam acionados.
--    e.preventDefault() impedir que o navegador execute o comportamento padrão associado a determinados eventos.
+-    **e.stopPropagation()** impedir que os manipuladores de eventos associados às tags superiores sejam acionados.
+-    **e.preventDefault()** impedir que o navegador execute o comportamento padrão associado a determinados eventos.
 
--    O porque de usar useState() e não variaveis comuns: 1. Variáveis locais não persistentes entre renderizações. Quando o React renderiza esse componente uma segunda vez, ele o faz do principio—sem considerar quem quer mudanças às variáveis locais. 2. Mudanças às variáveis locais não acionam renderizações. O React não percebe que precisa renderizar o componente novo com os novos dados.
+-    O porque de usar useState() e não variaveis comuns:
+
+     1. Variáveis locais não persistentes entre renderizações. Quando o React renderiza esse componente uma segunda vez, ele o faz do principio—sem considerar quem quer mudanças às variáveis locais.
+     2. Mudanças às variáveis locais não acionam renderizações. O React não percebe que precisa renderizar o componente novo com os novos dados.
 
 -    ### **Matriz**:
 
@@ -137,7 +140,7 @@
           -    Muda a matriz (evitar): reverse, sort
           -    Retorna uma nova matriz (preferir): copie a matriz primeiro
 
-### useState()
+## useState()
 
 -    Quando você escreve um componente que mantém algum estado, você terá que fazer escolhas sobre quantas variáveis de estado usar e qual deve ser a forma dos dados. Embora seja possível escrever programas corretos mesmo com uma estrutura de estado subótima, existem alguns princípios que podem orientá-lo a fazer escolhas melhores:
 
@@ -161,13 +164,12 @@
 ## useContext()
 
 -    O contexto permite que um componente pai forneça dados para toda a árvore abaixo dele. Há muitos usos para o contexto.
--    Você pode fazer isso com props sozinho. É aqui que o contexto entra em jogo. Você fará isso em três etapas:
 
-     1. Criar um contexto. (Você pode chamá-lo LevelContext, uma vez que it“s para o nível de cabeçalho.)
-     2. Usar esse contexto do componente que precisa dos dados. (Heading usar LevelContext.)
-     3. Fornecer esse contexto do componente que especifica os dados. (Section irá fornecer LevelContext.)
+     1. Criar um contexto
+     2. Usar esse contexto do componente que precisa dos dados
+     3. Fornecer esse contexto do componente que especifica os dados
 
--    Contexto permite que um pai—mesmo um distante!—fornecer alguns dados para toda a árvore dentro dele.
+-    Contexto permite que um pai, mesmo um distante, fornecer alguns dados para toda a árvore dentro dele.
 
 ![alt text](image.png)
 
@@ -200,7 +202,7 @@
           ```
      2. inputRef.current.focus();
 
--    O React não permite que um componente acesse os nós DOM de outros componentes. Nem mesmo para seus próprios filhos! Isso é intencional. Refs são uma escotilha de fuga que deve ser usada com moderação. Manualmente manipulando outro os nós DOM do ComponentIcotiCats tornam seu código ainda mais frágil.
+-    O React não permite que um componente acesse os nós DOM de outros componentes. Nem mesmo para seus próprios filhos! Isso é intencional. Refs são uma escotilha de fuga que deve ser usada com moderação.
 -    ![alt text](image-1.png)
 
 ## useEffect()
