@@ -1,18 +1,17 @@
 import { useState } from 'react';
-import { foods, filterItems } from './data.js';
-
-// função de filterItems no arquivo data.js
-
-// export function filterItems(items, query) {
-// 	query = query.toLowerCase();
-// 	return items.filter((item) =>
-// 		item.name
-// 			.split(' ')
-// 			.some((word) => word.toLowerCase().startsWith(query))
-// 	);
-// }
+import { foods } from './data.js';
 
 import './App.css';
+
+// função de filterItems
+function filterItems(items, query) {
+	query = query.toLowerCase();
+	return items.filter((item) =>
+		item.name
+			.split(' ')
+			.some((word) => word.toLowerCase().startsWith(query))
+	);
+}
 
 export default function FilterableList() {
 	return <SearchBar items={foods} />;
