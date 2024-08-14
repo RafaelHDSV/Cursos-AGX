@@ -207,7 +207,7 @@
 
 ## useEffect()
 
--    Effects são uma saída de emergência do paradigma do React. Eles permitem que você “contorne” o React e sincronize seus componentes com algum sistema externo. Se não houver sistema externo envolvido (por exemplo, se você quiser atualizar o estado de um componente com props ou mudança de estado), você não deveria usar um Effect. Remover Effects desnecessários tornará seu código mais fácil de se entender, mais rápido e menos propenso a erros.
+-    Effects são uma saída de emergência do paradigma do React. Eles permitem que você “contorne” o React e sincronize seus componentes com algum sistema externo. Se não houver sistema externo envolvido, você não deveria usar um Effect.
 -    Effects têm um ciclo de vida diferente dos componentes. Componentes podem se montar, atualizar ou desmontar. Um Effect só pode fazer duas coisas: começar a sincronizar algo e, mais tarde, parar a sincronização. Esse ciclo pode acontecer múltiplas vezes se seu Effect depender de props e estado que possam mudar ao longo do tempo.
 
 ### Para escrever um efeito, siga estes três passos:
@@ -229,8 +229,7 @@
      -    Efeitos executados como um resultado de renderização. Definir estado gatilhos renderização. Definir o estado imediatamente em um efeito é como conectar uma tomada de energia em si mesma. O Efeito é executado, ele define o estado, o que causa uma re-renderização, o que faz com que o Efeito seja executado, ele define o estado novamente, isso causa outra re-renderização, e assim por diante.
 
 -    A matriz de dependências pode conter várias dependências. O React só pulará a execução do efeito novamente se tudo das dependências especificadas, você tem exatamente os mesmos valores que tinham durante a renderização anterior.
--    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido). Letilits ver o que acontece quando a função de limpeza é implementada
--    Cada efeito em seu código deve representar um processo de sincronização separado e independente.
+-    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido).
 
 -    ### Como remover Effects desnecessários
 
