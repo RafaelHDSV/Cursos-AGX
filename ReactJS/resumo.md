@@ -45,8 +45,8 @@
 
 -    Ganchos são utilizados para alterar o estado do componente interno para a gestão de dados dinâmicos em componentes de função.
 -    ### useState()
-     -    ```
-          const [currentState, stateSetter] = useState( initialState );
+     -    ```javascript
+          const [currentState, stateSetter] = useState(initialState);
           ```
      -    Setters de estado podem ser chamados em manipuladores de eventos.
      -    Usamos uma função de retorno de chamada de setter de estado quando nosso próximo valor depende do nosso valor anterior.
@@ -58,39 +58,56 @@
 
 ## Sétima Lição
 
--    Podemos importar o useEffect() função do 'react' biblioteca e chamá-lo em nossos componentes de função.
--    Efeito refere-se a uma função que passamos como o primeiro argumento do useEffect() função. Por padrão, o Effect Hook chama esse efeito após cada renderização.
--    O função de limpeza é opcionalmente retornado pelo efeito. Se o efeito fizer qualquer coisa que precise ser limpa para evitar vazamentos de memória, o efeito retornará uma função de limpeza, em seguida, o Gancho de Efeito chamará essa função de limpeza antes de chamar o efeito novamente, bem como quando o componente estiver sendo desmontado.
--    O matriz de dependência é o segundo argumento opcional que o useEffect() a função pode ser chamada com a fim impedir repetidamente chamar o efeito quando este não é necessário. Essa matriz deve consistir em todas as variáveis das quais o efeito depende.
--    O Effect Hook é tudo sobre o agendamento quando nosso código effectilits é executado. Podemos usar a matriz de dependência para configurar quando nosso efeito é chamado das seguintes maneiras:
--    Os ganchos nos dão a flexibilidade de organizar nosso código de maneiras diferentes, agrupando dados relacionados, bem como separando preocupações
+-    ### useEffect()
+
+     -    ```javascript
+          useEffect(() => {
+               code
+
+               return () => {
+                    cleanup
+               }
+
+          } [dependecies]);
+          ```
+
+     -    Por padrão, o Effect Hook chama esse efeito após cada renderização.
+     -    O matriz de dependência é o segundo argumento opcional que o useEffect() a função pode ser chamada com a fim impedir repetidamente chamar o efeito quando este não é necessário. Essa matriz deve consistir em todas as variáveis das quais o efeito depende.
+     -    O função de limpeza é opcionalmente retornado pelo efeito. Se o efeito fizer qualquer coisa que precise ser limpa para evitar vazamentos de memória, o efeito retornará uma função de limpeza, em seguida, o Gancho de Efeito chamará essa função de limpeza antes de chamar o efeito novamente, bem como quando o componente estiver sendo desmontado.
 
 ## Oitava Lição
 
 -    Identificou-se que o componente original precisava ser refatorado: tratava de cálculos/lógica e apresentação/renderização.
 -    Criou um componente de contêiner contendo toda a lógica stateful.
--    Criou uma função que chama o método de configuração de estado fornecido por useState().
--    Componentes de apresentação criados e exportados contendo apenas JSX.
 -    Importou os componentes de apresentação para o componente de contêiner.
--    Utilizou os componentes de apresentação na declaração de retorno do componente de contêiner.
--    Estado passado e funções usadas para alterar o estado como props para os componentes de apresentação renderizados.
 
 ## Nona Lição
 
--    Os componentes do React podem ser estilizados de várias maneiras diferentes: estilo em linha, estilo variável de objeto, folhas de estilo e módulos CSS.
--    O estilo em linha pode ser usado para aplicar estilos a um único elemento. O estilo em linha pode ser feito dando ao elemento um atributo chamado style cujo valor é um objeto literal cercado por chaves.
--    Uma variável de objeto também pode ser usada para aplicar um estilo a um único elemento. A sintaxe é semelhante ao estilo inline, mas em vez de passar um objeto literal, o nome da variável é passado em vez disso.
-     const myStyle = { color: "red" }
--    Os nomes de estilo no React devem estar no camelCase. Por exemplo, background-color torna-se backgroundColor.
+-    Estilização em React pode ser feita de várias maneiras diferentes:
+
+     -    ### Estilo em linha
+          -    O estilo em linha pode ser usado para aplicar estilos a um único elemento. O estilo em linha pode ser feito dando ao elemento um atributo chamado style cujo valor é um objeto literal cercado por chaves.
+     -    ### Estilo variável de objeto
+          -    Uma variável de objeto também pode ser usada para aplicar um estilo a um único elemento. A sintaxe é semelhante ao estilo inline, mas em vez de passar um objeto literal, o nome da variável é passado em vez disso.
+          -    ```javascript
+               const myStyle = { color: 'red' };
+               ```
+     -    ### Folhas de estilo
+     -    ### Módulos CSS
+          -    Os estilos podem ser separados e armazenados em arquivos de módulo CSS. Os estilos podem ser importados e usados aplicando className atributos aos elementos relevantes.
+
 -    No React, um valor de estilo numérico é interpretado automaticamente com px.
--    Os estilos podem ser separados e armazenados em arquivos de módulo CSS. Os estilos podem ser importados e usados aplicando className atributos aos elementos relevantes.
+-    Os nomes de estilo no React devem estar no **camelCase**:
+     -    backgroundColor
+     -    fontSize
+     -    color
+     -    flexDirection
 
 ## Décima Lição
 
 -    O estado de um formulário React é gerenciado pelo componente e as atualizações são acionadas pelo onChange evento.
--    O onChange o evento usa um manipulador de eventos para capturar alterações e determinar quais ações devem ser tomadas.
--    Um formulário React usa o hook de estado para armazenar o valor do campo de entrada no estado componentilits. O estado pode então ser atualizado com o setter de estados.
--    Os componentes de reação podem ser controlados ou não controlados. A maioria dos formulários React são controlados, pois controlam o valor inputilits com o estado.
+-    O **onChange** usa um manipulador de eventos para capturar alterações e determinar quais ações devem ser tomadas.
+-    Um formulário React usa o useState para armazenar o valor do campo de entrada.
 
 # Documentação do React (https://pt-br.react.dev/):
 
