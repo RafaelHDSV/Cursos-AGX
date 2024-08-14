@@ -36,29 +36,25 @@
 
 ## Quinta Lição
 
--    Passando um suporte, dando um atributo para uma instância de componente.
 -    Acessando um suporte passado via props.propName.
--    Exibindo um adereço.
--    Usando um suporte para tomar decisões sobre o que exibir.
--    Definindo um manipulador de eventos em um componente de função.
 -    Passando um manipulador de eventos como um adereço.
--    Receber um manipulador de eventos prop e anexá-lo a um ouvinte de eventos.
--    Nomear manipuladores de eventos e atributos de manipuladores de eventos de acordo com uma convenção.
 -    Acessando props.children.
 -    Atribuindo valores padrão para props.
 
 ## Sexta Lição
 
--    Com o React, alimentamos modelos de dados estáticos e dinâmicos para JSX para renderizar uma visualização para a tela.
--    Ganchos são utilizados para “hook into” o estado do componente interno para a gestão de dados dinâmicos em componentes de função.
--    Nós empregamos o State Hook usando o código abaixo. O currentState referências ao valor atual do estado e initialState inicializa o valor do estado para a primeira renderização do componente.
--    const [currentState, stateSetter] = useState( initialState );
--    Setters de estado podem ser chamados em manipuladores de eventos.
--    Podemos definir manipuladores de eventos simples em linha em nosso JSX e manipuladores de eventos complexos fora do nosso JSX.
--    Usamos uma função de retorno de chamada de setter de estado quando nosso próximo valor depende do nosso valor anterior.
--    Usamos arrays e objetos para organizar e gerenciar dados relacionados que tendem a mudar juntos.
--    Use a sintaxe de propagação em coleções de dados dinâmicos para copiar o estado anterior para o próximo estado assim: setArrayState((prev) => [ ...prev ]) e setObjectState((prev) => ({ ...prev })).
--    A melhor prática é ter vários estados mais simples em vez de ter um objeto de estado complexo.
+-    Ganchos são utilizados para alterar o estado do componente interno para a gestão de dados dinâmicos em componentes de função.
+-    ### useState()
+     -    ```
+          const [currentState, stateSetter] = useState( initialState );
+          ```
+     -    Setters de estado podem ser chamados em manipuladores de eventos.
+     -    Usamos uma função de retorno de chamada de setter de estado quando nosso próximo valor depende do nosso valor anterior.
+     -    Usamos arrays e objetos para organizar e gerenciar dados relacionados que tendem a mudar juntos.
+     -    Use a sintaxe de propagação em coleções de dados dinâmicos para copiar o estado anterior para o próximo estado assim:
+          -    setArrayState((prev) => [ ...prev ])
+          -    setObjectState((prev) => ({ ...prev })).
+     -    A melhor prática é ter vários estados mais simples em vez de ter um objeto de estado complexo.
 
 ## Sétima Lição
 
