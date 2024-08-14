@@ -2,39 +2,35 @@
 
 ## Primeira Lição
 
--    O React é um framework front-end modular, escalável, flexível e popular.
+-    O React é um framework front-end **modular**, **escalável**, **flexível** e **popular**.
 -    JSX é uma extensão de sintaxe para JavaScript que nos permite tratar HTML como expressões.
--    Eles podem ser armazenados em variáveis, objetos, matrizes e muito mais!
--    Os elementos JSX podem ter atributos e ser aninhados uns nos outros, assim como no HTML.
 -    JSX deve ter exatamente um elemento externo, e outros elementos podem ser aninhados dentro.
 -    createRoot() de react-dom/client pode ser usado para criar uma raiz React no elemento DOM especificado.
--    A React rootilits render() método pode ser usado para renderizar JSX na tela.
--    A React rootilits render() o método atualiza apenas os elementos DOM que foram alterados usando o DOM virtual.
--    À medida que você continua a aprender mais sobre o React, você aprenderá algumas coisas poderosas que você pode fazer com o JSX, alguns problemas comuns do JSX e como evitá-los.
+-    #### render()
+     -    Pode ser usado para renderizar JSX na tela.
+     -    Atualiza apenas os elementos DOM que foram alterados usando o DOM virtual.
 
 ## Segunda Lição
 
 -    As aplicações de reação são compostas de componentes.
 -    Os componentes são responsáveis pela renderização de peças da interface do usuário.
--    Para criar componentes e renderizá-los, react e reactDOM deve ser importado.
 -    Componentes de reação podem ser definidos com funções Javascript para fazer componentes da função.
--    Os nomes dos componentes da função devem começar com uma letra maiúscula, e o caso Pascal é a convenção de nomenclatura adotada.
--    Os componentes da função devem retornar alguns elementos React JSX sintaxe.
+-    #### Pascal Case: Componentes devem começar com uma letra maiúscula, como:
+     -    ItemNumber
+     -    TotalValue
+     -    URLName
+     -    MasterCard
 -    Os componentes do React podem ser exportados e importados de arquivo para arquivo.
 -    Um componente React pode ser usado chamando o nome do componente em uma sintaxe de tag de fechamento automático semelhante ao HTML.
--    Renderizar um componente React requer o uso de .createRoot() para especificar um contêiner raiz e chamar o .render() método nele.
 
 ## Terceira Lição
 
 -    Os componentes da função podem retornar múltiplos JSX linhas aninhando os elementos em um elemento pai.
 -    Atributos variáveis podem ser usados dentro de um componente React com injeções JavaScript.
--    Os componentes de reação suportam a lógica colocando as instruções lógicas acima das instruções de retorno.
 -    Os componentes podem retornar condicionalmente elementos JSX colocando instruções condicionais dentro dos componentes.
--    Os componentes podem responder a eventos definindo
 
 ## Quarta Lição
 
--    Um aplicativo React pode conter vários componentes.
 -    Os componentes podem interagir uns com os outros retornando instâncias uns dos outros.
 -    A interação de componentes permite que eles sejam divididos em componentes menores, armazenados em arquivos separados e reutilizados quando necessário.
 
