@@ -2,8 +2,6 @@
 
 ## Primeira Lição
 
-### Nesta lição, aprendemos que:
-
 -    O React é um framework front-end modular, escalável, flexível e popular.
 -    JSX é uma extensão de sintaxe para JavaScript que nos permite tratar HTML como expressões.
 -    Eles podem ser armazenados em variáveis, objetos, matrizes e muito mais!
@@ -15,8 +13,6 @@
 -    À medida que você continua a aprender mais sobre o React, você aprenderá algumas coisas poderosas que você pode fazer com o JSX, alguns problemas comuns do JSX e como evitá-los.
 
 ## Segunda Lição
-
-### Nesta lição, você aprendeu sobre um conceito fundamental do React: componentes.
 
 -    As aplicações de reação são compostas de componentes.
 -    Os componentes são responsáveis pela renderização de peças da interface do usuário.
@@ -30,8 +26,6 @@
 
 ## Terceira Lição
 
-### Nesta lição, aprendemos:
-
 -    Os componentes da função podem retornar múltiplos JSX linhas aninhando os elementos em um elemento pai.
 -    Atributos variáveis podem ser usados dentro de um componente React com injeções JavaScript.
 -    Os componentes de reação suportam a lógica colocando as instruções lógicas acima das instruções de retorno.
@@ -40,15 +34,11 @@
 
 ## Quarta Lição
 
-### Nesta lição, aprendemos que:
-
 -    Um aplicativo React pode conter vários componentes.
 -    Os componentes podem interagir uns com os outros retornando instâncias uns dos outros.
 -    A interação de componentes permite que eles sejam divididos em componentes menores, armazenados em arquivos separados e reutilizados quando necessário.
 
 ## Quinta Lição
-
-### Nesta lição, aprendemos que:
 
 -    Passando um suporte, dando um atributo para uma instância de componente.
 -    Acessando um suporte passado via props.propName.
@@ -63,8 +53,6 @@
 
 ## Sexta Lição
 
-### Nesta lição, aprendemos que:
-
 -    Com o React, alimentamos modelos de dados estáticos e dinâmicos para JSX para renderizar uma visualização para a tela.
 -    Ganchos são utilizados para “hook into” o estado do componente interno para a gestão de dados dinâmicos em componentes de função.
 -    Nós empregamos o State Hook usando o código abaixo. O currentState referências ao valor atual do estado e initialState inicializa o valor do estado para a primeira renderização do componente.
@@ -78,8 +66,6 @@
 
 ## Sétima Lição
 
-### Nesta lição, aprendemos que:
-
 -    Podemos importar o useEffect() função do 'react' biblioteca e chamá-lo em nossos componentes de função.
 -    Efeito refere-se a uma função que passamos como o primeiro argumento do useEffect() função. Por padrão, o Effect Hook chama esse efeito após cada renderização.
 -    O função de limpeza é opcionalmente retornado pelo efeito. Se o efeito fizer qualquer coisa que precise ser limpa para evitar vazamentos de memória, o efeito retornará uma função de limpeza, em seguida, o Gancho de Efeito chamará essa função de limpeza antes de chamar o efeito novamente, bem como quando o componente estiver sendo desmontado.
@@ -88,8 +74,6 @@
 -    Os ganchos nos dão a flexibilidade de organizar nosso código de maneiras diferentes, agrupando dados relacionados, bem como separando preocupações
 
 ## Oitava Lição
-
-### Nesta lição, aprendemos que:
 
 -    Identificou-se que o componente original precisava ser refatorado: tratava de cálculos/lógica e apresentação/renderização.
 -    Criou um componente de contêiner contendo toda a lógica stateful.
@@ -101,8 +85,6 @@
 
 ## Nona Lição
 
-### Nesta lição, aprendemos que:
-
 -    Os componentes do React podem ser estilizados de várias maneiras diferentes: estilo em linha, estilo variável de objeto, folhas de estilo e módulos CSS.
 -    O estilo em linha pode ser usado para aplicar estilos a um único elemento. O estilo em linha pode ser feito dando ao elemento um atributo chamado style cujo valor é um objeto literal cercado por chaves.
 -    Uma variável de objeto também pode ser usada para aplicar um estilo a um único elemento. A sintaxe é semelhante ao estilo inline, mas em vez de passar um objeto literal, o nome da variável é passado em vez disso.
@@ -113,16 +95,14 @@
 
 ## Décima Lição
 
-### Nesta lição, aprendemos que:
-
 -    O estado de um formulário React é gerenciado pelo componente e as atualizações são acionadas pelo onChange evento.
 -    O onChange o evento usa um manipulador de eventos para capturar alterações e determinar quais ações devem ser tomadas.
 -    Um formulário React usa o hook de estado para armazenar o valor do campo de entrada no estado componentilits. O estado pode então ser atualizado com o setter de estados.
 -    Os componentes de reação podem ser controlados ou não controlados. A maioria dos formulários React são controlados, pois controlam o valor inputilits com o estado.
 
-# Documentação:
+# Documentação do React (https://pt-br.react.dev/):
 
--    Em ciência da computação (e especialmente no mundo da programação funcional), o, uma função pura é uma função com as seguintes características:
+-    Em ciência da computação (e especialmente no mundo da programação funcional), uma função pura é uma função com as seguintes características:
 
      -    Ele cuida de seu próprio negócio. Ele não altera nenhum objeto ou variável que existia antes de ser chamado.
      -    Mesmas entradas, mesma saída. Dadas as mesmas entradas, uma função pura deve sempre retornar o mesmo resultado.
@@ -158,14 +138,14 @@
      -    Evite duplicação no estado. Quando os mesmos dados são duplicados entre várias variáveis de estado, ou dentro de objetos aninhados, é difícil mantê-los sincronizados. Reduza a duplicação quando puder.
      -    Evite estados muito aninhados. Um estado muito hierárquico não é muito conveniente para atualizar. Quando possível, prefira estruturar o estado de forma plana.
 
-          ```
+          ```javascript
           const [x, setX] = useState(0);
           const [y, setY] = useState(0);
           ```
 
           Troque por
 
-          ```
+          ```javascript
           const [position, setPosition] = useState({ x: 0, y: 0 });
           ```
 
@@ -174,9 +154,9 @@
 -    O contexto permite que um componente pai forneça dados para toda a árvore abaixo dele. Há muitos usos para o contexto.
 -    Você pode fazer isso com props sozinho. É aqui que o contexto entra em jogo. Você fará isso em três etapas:
 
-          1. Criar um contexto. (Você pode chamá-lo LevelContext, uma vez que it“s para o nível de cabeçalho.)
-          2. Usar esse contexto do componente que precisa dos dados. (Heading usar LevelContext.)
-          3. Fornecer esse contexto do componente que especifica os dados. (Section irá fornecer LevelContext.)
+     1. Criar um contexto. (Você pode chamá-lo LevelContext, uma vez que it“s para o nível de cabeçalho.)
+     2. Usar esse contexto do componente que precisa dos dados. (Heading usar LevelContext.)
+     3. Fornecer esse contexto do componente que especifica os dados. (Section irá fornecer LevelContext.)
 
 -    Contexto permite que um pai—mesmo um distante!—fornecer alguns dados para toda a árvore dentro dele.
 
@@ -195,16 +175,18 @@
 ### useRef()
 
 -    Quando desejar que um componente “guarde” alguma informação, mas não que ela acione novas renderizações, você pode usar uma ref:
--    ```
+-    ```javascript
      const ref = useRef(0);
      ```
 -    Alguns usos do useRef():
 
      1. Você pode acessar o valor atual daquele ref através da propriedade ref.current. Esse valor é intencionalmente mutável, o que significa que você pode tanto ler quanto escrever sobre ele. É como um bolso secreto do seu componente o qual o React não rastreia
-          ```
+          ```javascript
           import { useRef } from 'react';
           let ref = useRef(0);
-          function handleClick() { ref.current }
+          function handleClick() {
+          	ref.current;
+          }
           ```
      2. inputRef.current.focus();
 
@@ -221,11 +203,11 @@
      3. **Adicione a limpeza, se necessário**. Alguns efeitos precisam especificar como parar, desfazer ou limpar o que eles estavam fazendo. Por exemplo, “connect” precisa de “disconnect”, “subscribe” precisa de “unsubscribe” e “fetch” precisa de “cancel” ou “ignore”. Você aprenderá como fazer isso retornando um função de limpeza.
 -    Loop infinito:
 
-     ```
+     ```javascript
      const [count, setCount] = useState(0);
 
      useEffect(() => {
-     setCount(count + 1);
+     	setCount(count + 1);
      });
      ```
 
@@ -253,17 +235,17 @@
 ### &lt; Profiler /&gt;
 
 -    Profiler possibilidade medir o desenho de renderização de uma árvore React de forma programática.
--    ```
-     <Profiler id="App" onRender={onRender}>
-       <App />
+-    ```javascript
+     <Profiler id='App' onRender={onRender}>
+     	<App />
      </Profiler>
      ```
 
 ### &lt;StrictMode/&gt;
 
 -    StrictMode permite que você encontre bugs comuns em seus componentes no início do desenvolvimento.
--    ```
+-    ```javascript
      <StrictMode>
-       <App />
+     	<App />
      </StrictMode>
      ```
