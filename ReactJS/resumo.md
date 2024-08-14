@@ -148,7 +148,7 @@
           -    Muda a matriz (evitar): reverse, sort
           -    Retorna uma nova matriz (preferir): copie a matriz primeiro
 
-### Princípios para estruturar useStates()
+### useState()
 
 -    Quando você escreve um componente que mantém algum estado, você terá que fazer escolhas sobre quantas variáveis de estado usar e qual deve ser a forma dos dados. Embora seja possível escrever programas corretos mesmo com uma estrutura de estado subótima, existem alguns princípios que podem orientá-lo a fazer escolhas melhores:
 
@@ -235,7 +235,7 @@
 -    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido). Letilits ver o que acontece quando a função de limpeza é implementada
 -    Cada efeito em seu código deve representar um processo de sincronização separado e independente.
 
--    ### Como remover Effects desnecessários
+-    #### Como remover Effects desnecessários
 
      -    Existem dois casos comuns em que você não precisa de Effects:
           -    Você não precisa de Effects para manipular seus dados para renderização.
