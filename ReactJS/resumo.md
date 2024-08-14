@@ -149,7 +149,7 @@
           const [position, setPosition] = useState({ x: 0, y: 0 });
           ```
 
-### useContext()
+## useContext()
 
 -    O contexto permite que um componente pai forneça dados para toda a árvore abaixo dele. Há muitos usos para o contexto.
 -    Você pode fazer isso com props sozinho. É aqui que o contexto entra em jogo. Você fará isso em três etapas:
@@ -162,20 +162,21 @@
 
 ![alt text](image.png)
 
--    Casos para usar o useContext()
-     -    **Temática**: Se o aplicativo permitir que o usuário altere sua aparência (por exemplo, modo escuro), você poderá colocar um provedor de contexto na parte superior do aplicativo, e use esse contexto em componentes que precisam ajustar sua aparência visual.
-     -    **Conta corrente**: Muitos componentes podem precisar conhecer o usuário conectado no momento. Colocá-lo em contexto torna conveniente lê-lo em qualquer lugar da árvore. Alguns aplicativos também permitem que você opere várias contas ao mesmo tempo (por exemplo, para deixar um comentário como um usuário diferente). Nesses casos, pode ser conveniente envolver uma parte da UI em um provedor aninhado com um valor de conta corrente diferente.
-     -    **Roteamento**: A maioria das soluções de roteamento usa o contexto internamente para manter a rota atual. É assim que cada link “knows” se it“ está ativo ou não. Se você construir seu próprio roteador, você pode querer fazê-lo também.
-     -    **Estado de gestão**: À medida que seu aplicativo cresce, você pode acabar com muito estado mais perto do topo do seu aplicativo.Muitos componentes distantes abaixo podem querer alterá-lo. É comum a use um redutor junto com o contexto para gerenciar o estado complexo e passá-lo para componentes distantes sem muito aborrecimento.
+### Casos para usar o useContext()
 
-### useReducer()
+-    **Temática**: Se o aplicativo permitir que o usuário altere sua aparência (por exemplo, modo escuro), você poderá colocar um provedor de contexto na parte superior do aplicativo, e use esse contexto em componentes que precisam ajustar sua aparência visual.
+-    **Conta corrente**: Muitos componentes podem precisar conhecer o usuário conectado no momento. Colocá-lo em contexto torna conveniente lê-lo em qualquer lugar da árvore. Alguns aplicativos também permitem que você opere várias contas ao mesmo tempo (por exemplo, para deixar um comentário como um usuário diferente). Nesses casos, pode ser conveniente envolver uma parte da UI em um provedor aninhado com um valor de conta corrente diferente.
+-    **Roteamento**: A maioria das soluções de roteamento usa o contexto internamente para manter a rota atual. É assim que cada link “knows” se it“ está ativo ou não. Se você construir seu próprio roteador, você pode querer fazê-lo também.
+-    **Estado de gestão**: À medida que seu aplicativo cresce, você pode acabar com muito estado mais perto do topo do seu aplicativo.Muitos componentes distantes abaixo podem querer alterá-lo. É comum a use um redutor junto com o contexto para gerenciar o estado complexo e passá-lo para componentes distantes sem muito aborrecimento.
+
+## useReducer()
 
 -    Um redutor ajuda a manter os manipuladores de eventos curtos e concisos. No entanto, à medida que seu aplicativo cresce, você pode encontrar outra dificuldade
 
-### useRef()
+## useRef()
 
 -    Quando desejar que um componente “guarde” alguma informação, mas não que ela acione novas renderizações, você pode usar uma ref:
--    ```javascript
+     ```javascript
      const ref = useRef(0);
      ```
 -    Alguns usos do useRef():
@@ -193,15 +194,18 @@
 -    O React não permite que um componente acesse os nós DOM de outros componentes. Nem mesmo para seus próprios filhos! Isso é intencional. Refs são uma escotilha de fuga que deve ser usada com moderação. Manualmente manipulando outro os nós DOM do ComponentIcotiCats tornam seu código ainda mais frágil.
 -    ![alt text](image-1.png)
 
-### useEffect()
+## useEffect()
 
 -    Effects são uma saída de emergência do paradigma do React. Eles permitem que você “contorne” o React e sincronize seus componentes com algum sistema externo. Se não houver sistema externo envolvido (por exemplo, se você quiser atualizar o estado de um componente com props ou mudança de estado), você não deveria usar um Effect. Remover Effects desnecessários tornará seu código mais fácil de se entender, mais rápido e menos propenso a erros.
 -    Effects têm um ciclo de vida diferente dos componentes. Componentes podem se montar, atualizar ou desmontar. Um Effect só pode fazer duas coisas: começar a sincronizar algo e, mais tarde, parar a sincronização. Esse ciclo pode acontecer múltiplas vezes se seu Effect depender de props e estado que possam mudar ao longo do tempo.
--    Para escrever um efeito, siga estes três passos:
-     1. **Declarar um Efeito**. Por padrão, seu efeito será executado após cada comprometer.
-     2. **Especifique as dependências de efeito**. A maioria dos Efeitos deve ser executada novamente quando necessário em vez de depois de cada renderização. Por exemplo, uma animação de fade-in só deve ser acionada quando um componente aparece. A conexão e desconexão a uma sala de bate-papo só deve acontecer quando o componente aparece e desaparece ou quando a sala de bate-papo muda. Você aprenderá como controlar isso especificando dependências.
-     3. **Adicione a limpeza, se necessário**. Alguns efeitos precisam especificar como parar, desfazer ou limpar o que eles estavam fazendo. Por exemplo, “connect” precisa de “disconnect”, “subscribe” precisa de “unsubscribe” e “fetch” precisa de “cancel” ou “ignore”. Você aprenderá como fazer isso retornando um função de limpeza.
--    Loop infinito:
+
+### Para escrever um efeito, siga estes três passos:
+
+1. **Declarar um Efeito**. Por padrão, seu efeito será executado após cada comprometer.
+2. **Especifique as dependências de efeito**. A maioria dos Efeitos deve ser executada novamente quando necessário em vez de depois de cada renderização. Por exemplo, uma animação de fade-in só deve ser acionada quando um componente aparece. A conexão e desconexão a uma sala de bate-papo só deve acontecer quando o componente aparece e desaparece ou quando a sala de bate-papo muda. Você aprenderá como controlar isso especificando dependências.
+3. **Adicione a limpeza, se necessário**. Alguns efeitos precisam especificar como parar, desfazer ou limpar o que eles estavam fazendo. Por exemplo, “connect” precisa de “disconnect”, “subscribe” precisa de “unsubscribe” e “fetch” precisa de “cancel” ou “ignore”. Você aprenderá como fazer isso retornando um função de limpeza.
+
+-    **Loop infinito**:
 
      ```javascript
      const [count, setCount] = useState(0);
@@ -217,34 +221,38 @@
 -    O React chamará sua função de limpeza cada vez antes que o efeito seja executado novamente e uma última vez quando o componente for desmontado (será removido). Letilits ver o que acontece quando a função de limpeza é implementada
 -    Cada efeito em seu código deve representar um processo de sincronização separado e independente.
 
--    #### Como remover Effects desnecessários
+-    ### Como remover Effects desnecessários
 
-     -    Existem dois casos comuns em que você não precisa de Effects:
-          -    Você não precisa de Effects para manipular seus dados para renderização.
-          -    Você não precisa de Effects para lidar com eventos do usuário.
-     -    Casos que você precisa de Effects:
-          -    Você precisa de Effects para sincronizar com sistemas externos.
-          -    Também é possível buscar dados com Effects.
+     #### Existem dois casos comuns em que você não precisa de useEffects:
 
-### Hooks Personalizados
+     -    Você não precisa de useEffects para manipular seus dados para renderização.
+     -    Você não precisa de useEffects para lidar com eventos do usuário.
 
--    Você deve seguir estas convenções de nomenclatura:
-     -    Os nomes dos **componentes** do React devem vir com uma letra maiúscula, como StatusBar e SaveButton. Os componentes do React também precisam retornar algo que o React saiba como exibir, como um trecho de JSX.
-     -    Os nomes dos **hooks** devem começar com use seguido por uma letra maiúscula, como useState (incorporado) ou useOnlineStatus (personalizado, como mencionado anteriormente na página). Ganchos podem retorno valores arbitrários.
+     #### Casos que você precisa de useEffects:
 
-### &lt; Profiler /&gt;
+     -    Você precisa de useEffects para sincronizar com sistemas externos.
+     -    Também é possível buscar dados com useEffects.
+
+## Hooks Personalizados
+
+### Você deve seguir estas convenções de nomenclatura:
+
+-    Os nomes dos **componentes** do React devem vir com uma letra maiúscula, como StatusBar e SaveButton. Os componentes do React também precisam retornar algo que o React saiba como exibir, como um trecho de JSX.
+-    Os nomes dos **hooks** devem começar com use seguido por uma letra maiúscula, como useState (incorporado) ou useOnlineStatus (personalizado, como mencionado anteriormente na página). Ganchos podem retorno valores arbitrários.
+
+## &lt; Profiler /&gt;
 
 -    Profiler possibilidade medir o desenho de renderização de uma árvore React de forma programática.
--    ```javascript
+     ```javascript
      <Profiler id='App' onRender={onRender}>
      	<App />
      </Profiler>
      ```
 
-### &lt;StrictMode/&gt;
+## &lt;StrictMode/&gt;
 
 -    StrictMode permite que você encontre bugs comuns em seus componentes no início do desenvolvimento.
--    ```javascript
+     ```javascript
      <StrictMode>
      	<App />
      </StrictMode>
